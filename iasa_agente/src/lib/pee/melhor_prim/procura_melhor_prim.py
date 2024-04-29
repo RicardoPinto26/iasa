@@ -10,8 +10,8 @@ class ProcuraMelhorPrim(ProcuraGrafo):
 
     def __init__(self, avaliador):
         """Construtor da classe."""
+        self._avaliador = avaliador
         super().__init__(FronteiraPrioridade(avaliador))
-        raise NotImplementedError
 
     def _manter(self, no):
         # Se a procura em grafo ja mantem o no, ou se o custo do no for menor que o custo ja explorado,

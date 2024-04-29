@@ -1,3 +1,5 @@
+from heapq import heappush, heappop
+
 from pee.mec_proc.fronteira import Fronteira
 
 
@@ -7,18 +9,18 @@ class FronteiraPrioridade(Fronteira):
 
     def __init__(self, avaliador):
         """Construtor da classe."""
-        self.__avaliador = avaliador
+        # Avaliador muda para protected
+        self._avaliador = avaliador
         super().__init__()
-        raise NotImplementedError
 
     def inserir(self, no):
-        """Insere o no na fronteira, e ordena os nos por prioridade."""
-        self._nos.append(no)
-        self._nos.sort(key=lambda n: self.__avaliador.prioridade(n))
-        self._nos.reverse()
-        raise NotImplementedError
+        """Insere o no na fronteira, de forma ordenada pela sua prioridade."""
+        prioridade = self._avaliador.prioridade(no)
+        heappush(self._nos, (prioridade, no))
 
     def remover(self):
-        """Remove o no com maior prioridade da fronteira, e retorna-o."""
-        return self._nos.pop(0)
-        raise NotImplementedError
+        """Remove o no com maior prioridade da fronteira, e retorna-o.
+           Caso a fronteira esteja vazia, e lancado um IndexError.
+        """
+        _, no = heappop(self._nos)
+        return no

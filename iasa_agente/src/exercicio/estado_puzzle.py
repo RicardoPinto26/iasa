@@ -9,6 +9,7 @@ def _my_hash(matriz):
     for linha in matriz:
         for valor in linha:
             total += valor * 10 ** i
+            i += 1
     return total
 
 

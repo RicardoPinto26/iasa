@@ -39,3 +39,8 @@ class No:
             self.__profundidade = 0
         else:
             self.__profundidade = self.__antecessor.profundidade + 1
+
+    def __lt__(self, other):
+        """Metodo less-than, para comparar dois nos.
+           Necessario para a comparacao de tuplos na fronteira de prioridade"""
+        return self.custo < other.custo
