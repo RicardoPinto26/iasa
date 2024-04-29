@@ -1,0 +1,724 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  28 APR 2024 23:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./report.tex
+(report.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count196
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count197
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count198
+\c@listtotal=\count199
+\c@listcount=\count266
+\c@liststart=\count267
+\c@liststop=\count268
+\c@citecount=\count269
+\c@citetotal=\count270
+\c@multicitecount=\count271
+\c@multicitetotal=\count272
+\c@instcount=\count273
+\c@maxnames=\count274
+\c@minnames=\count275
+\c@maxitems=\count276
+\c@minitems=\count277
+\c@citecounter=\count278
+\c@maxcitecounter=\count279
+\c@savedcitecounter=\count280
+\c@uniquelist=\count281
+\c@uniquename=\count282
+\c@refsection=\count283
+\c@refsegment=\count284
+\c@maxextratitle=\count285
+\c@maxextratitleyear=\count286
+\c@maxextraname=\count287
+\c@maxextradate=\count288
+\c@maxextraalpha=\count289
+\c@abbrvpenalty=\count290
+\c@highnamepenalty=\count291
+\c@lownamepenalty=\count292
+\c@maxparens=\count293
+\c@parenlevel=\count294
+\blx@tempcnta=\count295
+\blx@tempcntb=\count296
+\blx@tempcntc=\count297
+\c@blx@maxsection=\count298
+\blx@maxsegment@0=\count299
+\blx@notetype=\count300
+\blx@parenlevel@text=\count301
+\blx@parenlevel@foot=\count302
+\blx@sectionciteorder@0=\count303
+\blx@sectionciteorderinternal@0=\count304
+\blx@entrysetcounter=\count305
+\blx@biblioinstance=\count306
+\labelnumberwidth=\skip50
+\labelalphawidth=\skip51
+\biblabelsep=\skip52
+\bibitemsep=\skip53
+\bibnamesep=\skip54
+\bibinitsep=\skip55
+\bibparsep=\skip56
+\bibhang=\skip57
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count307
+\c@maxcomprange=\count308
+\c@mincompwidth=\count309
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count310
+\c@savedafterword=\count311
+\c@annotator=\count312
+\c@savedannotator=\count313
+\c@author=\count314
+\c@savedauthor=\count315
+\c@bookauthor=\count316
+\c@savedbookauthor=\count317
+\c@commentator=\count318
+\c@savedcommentator=\count319
+\c@editor=\count320
+\c@savededitor=\count321
+\c@editora=\count322
+\c@savededitora=\count323
+\c@editorb=\count324
+\c@savededitorb=\count325
+\c@editorc=\count326
+\c@savededitorc=\count327
+\c@foreword=\count328
+\c@savedforeword=\count329
+\c@holder=\count330
+\c@savedholder=\count331
+\c@introduction=\count332
+\c@savedintroduction=\count333
+\c@namea=\count334
+\c@savednamea=\count335
+\c@nameb=\count336
+\c@savednameb=\count337
+\c@namec=\count338
+\c@savednamec=\count339
+\c@translator=\count340
+\c@savedtranslator=\count341
+\c@shortauthor=\count342
+\c@savedshortauthor=\count343
+\c@shorteditor=\count344
+\c@savedshorteditor=\count345
+\c@labelname=\count346
+\c@savedlabelname=\count347
+\c@institution=\count348
+\c@savedinstitution=\count349
+\c@lista=\count350
+\c@savedlista=\count351
+\c@listb=\count352
+\c@savedlistb=\count353
+\c@listc=\count354
+\c@savedlistc=\count355
+\c@listd=\count356
+\c@savedlistd=\count357
+\c@liste=\count358
+\c@savedliste=\count359
+\c@listf=\count360
+\c@savedlistf=\count361
+\c@location=\count362
+\c@savedlocation=\count363
+\c@organization=\count364
+\c@savedorganization=\count365
+\c@origlocation=\count366
+\c@savedoriglocation=\count367
+\c@origpublisher=\count368
+\c@savedorigpublisher=\count369
+\c@publisher=\count370
+\c@savedpublisher=\count371
+\c@language=\count372
+\c@savedlanguage=\count373
+\c@origlanguage=\count374
+\c@savedoriglanguage=\count375
+\c@pageref=\count376
+\c@savedpageref=\count377
+\shorthandwidth=\skip58
+\shortjournalwidth=\skip59
+\shortserieswidth=\skip60
+\shorttitlewidth=\skip61
+\shortauthorwidth=\skip62
+\shorteditorwidth=\skip63
+\locallabelnumberwidth=\skip64
+\locallabelalphawidth=\skip65
+\localshorthandwidth=\skip66
+\localshortjournalwidth=\skip67
+\localshortserieswidth=\skip68
+\localshorttitlewidth=\skip69
+\localshortauthorwidth=\skip70
+\localshorteditorwidth=\skip71
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count378
+\c@textcitetotal=\count379
+\c@textcitemaxnames=\count380
+\c@biburlbigbreakpenalty=\count381
+\c@biburlbreakpenalty=\count382
+\c@biburlnumpenalty=\count383
+\c@biburlucpenalty=\count384
+\c@biburllcpenalty=\count385
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count386
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bb
+x
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count387
+\c@bbx:relatedtotal=\count388
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count389
+\l__pdf_internal_box=\box51
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-02-20 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.
+sty
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count390
+\U@D=\dimen141
+\l@unhyphenated=\language80
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count391
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portugues
+e.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
+))
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-
+portuguese.tex
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 11.
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language81
+LaTeX Info: Redefining \_ on input line 43.
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count392
+\lst@gtempboxa=\box52
+\lst@token=\toks18
+\lst@length=\count393
+\lst@currlwidth=\dimen144
+\lst@column=\count394
+\lst@pos=\count395
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count396
+\lst@lineno=\count397
+\lst@maxwidth=\dimen147
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count398
+\lst@skipnumbers=\count399
+\lst@framebox=\box53
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count400
+\@quotereset=\count401
+(report.aux (title_page.aux))
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+Package biblatex Info: Trying to load language 'portuguese'...
+Package biblatex Info: ... file 'portuguese.lbx' found.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese.
+lbx
+File: portuguese.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `report.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'report.bbl' found.
+ (report.bbl)
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count402
+\scratchdimen=\dimen148
+\scratchbox=\box54
+\nofMPsegments=\count403
+\nofMParguments=\count404
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count405
+\MPscratchDim=\dimen149
+\MPnumerator=\count406
+\makeMPintoPDFobject=\count407
+\everyMPtoPDFconversion=\toks20
+)
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count408
+\openout2 = `title_page.aux'.
+
+ (title_page.tex
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 5.
+
+<logoISEL.pdf, id=1, 426.79147pt x 301.59976pt>
+File: logoISEL.pdf Graphic file (type pdf)
+<use logoISEL.pdf>
+Package pdftex.def Info: logoISEL.pdf  used on input line 9.
+(pdftex.def)             Requested size: 426.79044pt x 301.59903pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+[1
+
+
+{C:/Users/Wild/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logoISEL.pd
+f>]) (report.toc)
+\tf@toc=\write4
+\openout4 = `report.toc'.
+
+ [1
+
+
+]
+Overfull \hbox (9.72733pt too wide) in paragraph at lines 42--44
+\OT1/cmr/m/n/12 aut^^Sonomos (IASA) e en-ge-nha-ria de soft-ware. O do-cu-mento
+ ini-cia com um en-qua-dra-mento
+ []
+
+
+Overfull \hbox (2.79297pt too wide) in paragraph at lines 48--49
+[]\OT1/cmr/m/n/12 - Bi-bli-o-teca para de-sen-vol-vi-mento de agen-tes re-ac-ti
+-vos em Python. Mo-dula^^Xc~ao
+ []
+
+[2]
+Overfull \hbox (11.84894pt too wide) in paragraph at lines 56--57
+[]\OT1/cmr/m/n/12 - com base nes-ses mo-de-los e te-o-rias, de-sen-vol-ver sis-
+te-mas ca-pa-zes de apre-sen-tar
+ []
+
+
+Overfull \hbox (0.84297pt too wide) in paragraph at lines 75--77
+\OT1/cmr/m/n/12 pro-ces-sada nes-sas re-des de forma dis-tribu^^S^^Pda, em par-
+ti-cu-lar nas liga^^Xc~oes en-tre neur^^Sonios,
+ []
+
+
+Overfull \hbox (7.09662pt too wide) in paragraph at lines 75--77
+\OT1/cmr/m/n/12 em vez de s^^S^^Pmbolos. Este pa-ra-digma ^^Se ins-pi-rado no c
+o-nhe-ci-mento atual do fun-ci-o-na-mento
+ []
+
+[3]
+Overfull \hbox (62.19928pt too wide) in paragraph at lines 94--95
+[]\OT1/cmr/m/n/12 Um sis-tema aut^^Sonomo in-te-li-gente opera num ci-clo re-a-
+li-men-tado per-cep^^Xc~ao-processamento-ac^^Xc~ao,
+ []
+
+[4]
+Overfull \hbox (10.13408pt too wide) in paragraph at lines 114--115
+\OT1/cmr/m/n/12 mesma forma, ou seja, cada ac^^Xc~ao leva a um re-sul-tado ex-p
+ect^^Savel. Se for es-toc^^Sastico,
+ []
+
+
+Overfull \hbox (0.87714pt too wide) in paragraph at lines 116--117
+[]\OT1/cmr/m/n/12 - Se um am-bi-ente for to-tal-mente ob-serv^^Savel,
+ []
+
+[5]
+Overfull \hbox (21.2747pt too wide) in paragraph at lines 126--127
+\OT1/cmr/m/n/12 pro-du-zi-dos no de-sen-vol-vi-mento de soft-ware, uti-li-zando
+ m^^Setodos e pro-ces-sos ade-qua-dos
+ []
+
+
+Overfull \hbox (13.40674pt too wide) in paragraph at lines 134--135
+\OT1/cmr/m/n/12 Expressa na cres-cente di-fi-cul-dade de de-sen-vol-vi-mento, o
+pera^^Xc~ao e ma-nu-ten^^Xc~ao de soft-ware,
+ []
+
+
+Overfull \hbox (18.7276pt too wide) in paragraph at lines 136--137
+[]\OT1/cmr/m/n/12 O cres-ci-mento da com-ple-xi-dade de um sis-tema de forma n~
+ao ade-qua-da-mente con-tro-lada,
+ []
+
+[6]
+Overfull \hbox (5.20358pt too wide) in paragraph at lines 155--156
+\OT1/cmr/m/n/12 en-tre si fo-rem os ele-men-tos agru-pa-dos em cada m^^Sodulo. 
+Pode ser me-dida uti-li-zando
+ []
+
+
+Overfull \hbox (20.43808pt too wide) in paragraph at lines 167--168
+[]\OT1/cmr/m/n/12 - A de-com-posi^^Xc~ao das par-tes de um sis-tema de modo a e
+li-mi-nar re-dund^ancia.
+ []
+
+[7]
+
+pdfTeX warning: miktex-pdftex.exe (file ./modelos.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<modelos.pdf, id=55, 472.76625pt x 260.975pt>
+File: modelos.pdf Graphic file (type pdf)
+<use modelos.pdf>
+Package pdftex.def Info: modelos.pdf  used on input line 182.
+(pdftex.def)             Requested size: 378.2135pt x 208.78027pt.
+[8 <./modelos.pdf>]
+Overfull \hbox (8.08873pt too wide) in paragraph at lines 199--202
+\OT1/cmr/m/n/12 tipo de com-por-ta-men-tos ne-ces-sita de um me-ca-nismo de se-
+lec^^Xc~ao de ac^^Xc~ao para de-ter-mi-nar
+ []
+
+
+Overfull \hbox (0.8953pt too wide) in paragraph at lines 199--202
+\OT1/cmr/m/n/12 a ac^^Xc~ao a re-a-li-zar em fun^^Xc~ao das res-pos-tas dos v^^
+Sarios com-por-ta-men-tos in-ter-nos. Exis-tem
+ []
+
+
+Overfull \hbox (3.25891pt too wide) in paragraph at lines 204--205
+[]\OT1/cmr/m/n/12 - Os com-por-ta-men-tos est~ao or-ga-ni-za-dos numa hi-e-rar-
+quia fixa de sub-sun^^Xc~ao
+ []
+
+
+
+pdfTeX warning: miktex-pdftex.exe (file ./mecanismosselecao.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<mecanismosselecao.pdf, id=75, 435.6275pt x 520.94624pt>
+File: mecanismosselecao.pdf Graphic file (type pdf)
+<use mecanismosselecao.pdf>
+Package pdftex.def Info: mecanismosselecao.pdf  used on input line 207.
+(pdftex.def)             Requested size: 217.81322pt x 260.47249pt.
+[9]
+Overfull \hbox (9.06789pt too wide) in paragraph at lines 209--211
+\OT1/cmr/m/n/12 com-por-ta-men-tal, tamb^^Sem de-sig-nado com-por-ta-mento, o q
+ual re-pre-senta o com-por-ta-mento
+ []
+
+
+Overfull \hbox (4.33322pt too wide) in paragraph at lines 218--219
+[]\OT1/cmr/m/n/12 Pode re-pre-sen-tar din^amicas tem-po-rais, evo-luindo o es-t
+ado, e a res-posta ser de-fi-nida
+ []
+
+
+Overfull \hbox (0.28604pt too wide) in paragraph at lines 219--220
+[]\OT1/cmr/m/n/12 Possibilidade de com-por-ta-men-tos mais com-ple-xos ba-se-a-
+dos na evolu^^Xc~ao de es-tado. 
+ []
+
+
+Overfull \hbox (2.14851pt too wide) in paragraph at lines 220--221
+[]\OT1/cmr/m/n/12 Capacidade de li-dar com si-tua^^Xc~oes de fa-lha por ex-plor
+a^^Xc~ao de ac^^Xc~oes n~ao re-a-li-za-das
+ []
+
+[10 <./mecanismosselecao.pdf>] [11]
+Overfull \hbox (1.38148pt too wide) in paragraph at lines 239--243
+\OT1/cmr/m/n/12 aco-pla-mento que uma as-so-cia^^Xc~ao. A com-posi^^Xc~ao acon-
+tece quando uma parte ^^Se com-posta
+ []
+
+
+Overfull \hbox (36.61067pt too wide) in paragraph at lines 256--257
+[]\OT1/cmr/m/n/12 Para fi-na-li-zar a pri-meira parte do pro-jeto, foi ent~ao m
+o-du-lada a classe Con-tro-lo-Per-so-na-gem. 
+ []
+
+[12] [13]
+Overfull \hbox (26.83301pt too wide) in paragraph at lines 273--275
+[]\OT1/cmr/m/n/12 De se-guida, fo-ram de-sen-vol-vi-das as clas-ses Apro-xi-mar
+-Dir, Es-ti-mu-lo-Alvo, Apro-xi-ma-rAlvo,
+ []
+
+
+Overfull \hbox (8.62025pt too wide) in paragraph at lines 273--275
+\OT1/cmr/m/n/12 Evi-tar-Dir, Es-ti-mu-lo-Obst, Evi-ta-rObst e Res-pos-ta-E-vi-t
+ar. Com es-tas clas-ses de-sen-vol-vi-das,
+ []
+
+[14] [15] [16]
+Overfull \hbox (1.03464pt too wide) in paragraph at lines 289--290
+\OT1/cmr/m/n/12 so-bre a forma de co-ment^^Sarios no c^^Sodigo) nesta Uni-dade 
+Cur-ri-cu-lar, com a do-cu-menta^^Xc~ao
+ []
+
+[17]
+Overfull \hbox (2.07361pt too wide) in paragraph at lines 293--295
+\OT1/cmr/m/n/12 O pro-jeto at^^Se ao mo-mento abor-dou v^^Sarios t^^Sopicos fun
+-da-men-tais da In-te-lig^encia Ar-ti-fi-cial
+ []
+
+[18]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
+98.
+ (C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (28.47691pt too wide) in paragraph at lines 298--298
+[]\OT1/cmr/m/n/12 Luis Mor-gado. \OT1/cmr/m/it/12 In-trodu^^Xc~ao ^^Ra in-te-li
+g^encia ar-ti-fi-cial\OT1/cmr/m/n/12 . 2024. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/1
+2 : $\OT1/pcr/m/n/12 https : / / 2324moodle .
+ []
+
+[19{C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+(report.aux (title_page.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package logreq Info: Writing requests to 'report.run.xml'.
+\openout1 = `report.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12514 strings out of 474435
+ 233016 string characters out of 5742405
+ 1937190 words of memory out of 5000000
+ 34734 multiletter control sequences out of 15000+600000
+ 564764 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,7n,81p,681b,1628s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Wild\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk> <C:\Users\Wild\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1440.pk><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Wild/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Wild/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Wild/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on report.pdf (20 pages, 576010 bytes).
+PDF statistics:
+ 165 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
