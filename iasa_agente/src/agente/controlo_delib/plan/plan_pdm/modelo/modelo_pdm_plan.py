@@ -1,10 +1,12 @@
 from agente.controlo_delib.modelo.modelo_plan import ModeloPlan
+from pdm.modelo_pdm import ModeloPDM
 
 
-class ModeloPDMPlan(ModeloPlan):
+class ModeloPDMPlan(ModeloPlan, ModeloPDM):
     def __init__(self, modelo_plan, objectivos, rmax=1000):
         self.__modelo_plan = modelo_plan
-        raise NotImplementedError
+        self.__objectivos = objectivos
+        self.__rmax = rmax
 
     def obter_estado(self):
         raise NotImplementedError

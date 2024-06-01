@@ -35,5 +35,5 @@ class Solucao:
         return iter(self.__passos)
 
     def __getitem__(self, index):
-        """Retorna o passo de indice index da solucao."""
+        """Retorna o passo de coordenada index da solucao."""
         return self.__passos[index]
