@@ -27,6 +27,7 @@ public class Jogo {
 
     /*
         Método responsável pelo game loop.
+        Evolui o ambiente e executa o ciclo do agente, ate que o evento do ambiente seja TERMINAR.
      */
     private static void executar() {
         do {

@@ -5,9 +5,9 @@ import jogo.ambiente.AmbienteJogo;
 
 /*
     Classe que representa a personagem do jogo.
-    Esta extende Agente, visto que a personagem do jogo é um agente inteligente.
+    Esta extende Agente, visto que a personagem do jogo e um agente inteligente.
 
-    A heração de Agente é um exemplo de factorização estrutural.
+    A heranca de Agente é um exemplo de factorização estrutural.
  */
 public class Personagem extends Agente {
     /*

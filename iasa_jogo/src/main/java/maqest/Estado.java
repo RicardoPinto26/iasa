@@ -7,18 +7,21 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
-    Classe que representa um estado da máquina de estados.
-    Um estado representa a situação de evolução de um sistema.
+    Classe que representa um estado da maquina de estados.
+    Um estado representa a situacao de evolucao de um sistema.
 
-    As transicoes são ditadas por eventos, sendo que os eventos têm uma transicao associada.
+    As transicoes sao ditadas por eventos, sendo que os eventos tem uma transicao associada.
  */
 public class Estado {
-    private  String nome;
+    /*
+        Nome do estado.
+     */
+    private String nome;
+    /*
+        Mapa de Evento -> Transicao.
+        Representa as transicoes possiveis a partir deste estado.
+     */
     private Map<Evento, Transicao> transicoes;
-
-    public String getNome() {
-        return nome;
-    }
 
     public Estado(String nome) {
         this.nome = nome;
@@ -26,20 +29,28 @@ public class Estado {
         transicoes = new HashMap<>();
     }
 
+    public String getNome() {
+        return nome;
+    }
+
     /*
-        Neste caso, processar significa retornar a transicao associada ao evento, ou null caso não exista.
+        Neste caso, processar significa retornar a transicao associada ao evento, ou null caso nao exista.
      */
     Transicao processar(Evento evento) {
         return transicoes.get(evento);
     }
 
+    /*
+        Metodo que adiciona uma transicao ao mapa de evento -> transicao, sem accao associada.
+        Return this para permitir a chamada a varios metodos da classe em sequencia.
+     */
     public Estado transicao(Evento evento, Estado estadoSucessor) {
         return transicao(evento, estadoSucessor, null);
     }
 
     /*
-        Método que adiciona uma transição ao mapa de evento -> transicao.
-        Return this para permitir a chamada a vários métodos da classe em sequencia.
+        Metodo que adiciona uma transicao ao mapa de evento -> transicao.
+        Return this para permitir a chamada a varios metodos da classe em sequencia.
      */
     public Estado transicao(Evento evento, Estado estadoSucessor, Accao accao) {
         Transicao transicao = new Transicao(estadoSucessor, accao);

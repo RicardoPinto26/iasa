@@ -16,10 +16,6 @@ import maqest.MaquinaEstados;
 public class ControloPersonagem implements Controlo {
     private MaquinaEstados maqEst;
 
-    public Estado getEstado() {
-        return maqEst.getEstado();
-    }
-
     /*
         Construtor da classe.
 
@@ -61,8 +57,12 @@ public class ControloPersonagem implements Controlo {
         maqEst = new MaquinaEstados(procura);
     }
 
+    public Estado getEstado() {
+        return maqEst.getEstado();
+    }
+
     /*
-        Utiliza a máquina de estados para processar a percepçao (neste caso, o seu evento) e para
+        Utiliza a maquina de estados para processar a percepçao (neste caso, o seu evento) e para
          escolher a accao correspondente à percepção.
      */
     @Override

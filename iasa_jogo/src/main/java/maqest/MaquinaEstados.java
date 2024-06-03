@@ -9,18 +9,18 @@ import ambiente.Evento;
 public class MaquinaEstados {
     private Estado estado;
 
-    public Estado getEstado() {
-        return estado;
-    }
-
     public MaquinaEstados(Estado estadoInicial) {
         estado = estadoInicial;
     }
 
+    public Estado getEstado() {
+        return estado;
+    }
+
     /*
-        Método que representa o processamento de um evento na máquina de estados.
-        Caso o evento não represente uma transicao no estado atual, retorna null, caso contrario, muda
-        o estado atual para o estado sucessor da transicao, e retorna a accao correspondente à transicao.
+        Metodo que representa o processamento de um evento na maquina de estados.
+        Caso o evento nao represente uma transicao no estado atual, retorna null, caso contrario, muda
+        o estado atual para o estado sucessor da transicao, e retorna a accao correspondente a transicao.
      */
     public Accao processar(Evento evento) {
         Transicao transicao = estado.processar(evento);
