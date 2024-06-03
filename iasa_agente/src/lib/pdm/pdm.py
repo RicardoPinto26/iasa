@@ -2,6 +2,13 @@ from pdm.mec_util import MecUtil
 
 
 class PDM:
+    """Classe que calcula uma politica
+    atraves do processo de decisao de Markov.
+    A politica e um mapa de estado para accao, que determina a
+    seleccao das accoes que maximizam a utilidade.
+    A funcao de utilidade (valor) define o valor associado a cada estado do problema.
+    """
+
     def __init__(self, modelo, gama, delta_max):
         """Constructor da classe."""
         self.__modelo = modelo

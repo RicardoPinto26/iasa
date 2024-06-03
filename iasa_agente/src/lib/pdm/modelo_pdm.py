@@ -4,6 +4,12 @@ from abc import ABC, abstractmethod
 class ModeloPDM(ABC):
     """
     Classe abstrata que define o modelo de um processo de decisao de Markov.
+    Este modelo deve ser capaz de retornar:
+    - Os estados do modelo.
+    - As accoes possiveis para um determinado estado.
+    - A probabilidade de transicao de um estado para outro, dado uma accao.
+    - A recompensa de transicao de um estado para outro, dado uma accao.
+    - Os estados sucessores para um estado, dado uma accao.
     """
 
     @abstractmethod
