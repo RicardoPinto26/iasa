@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{iai}{online}{}
+    \entry{pds}{online}{}
       \name{author}{1}{}{%
         {{hash=8f532b296d7645b616471d6f81ef75ea}{%
            family={Morgado},
@@ -36,6 +36,34 @@
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Processos de decisão sequencial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241346/mod_resource/content/2/15-pds.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241346/mod_resource/content/2/15-pds.pdf
+      \endverb
+    \endentry
+    \entry{iai}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introdução à inteligência artificial}
@@ -62,9 +90,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introdução à engenharia de software - Parte 1}
@@ -91,9 +119,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extraname}{4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introdução à engenharia de software - Parte 2}
@@ -120,9 +148,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extraname}{5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introdução à engenharia de software - Parte 3}
@@ -149,9 +177,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{5}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Arquitectura de agentes reactivos - Parte 1}
@@ -178,9 +206,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{6}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extraname}{7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Arquitectura de agentes reactivos - Parte 2}
@@ -207,9 +235,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extraname}{8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Arquitectura de agentes reactivos - Parte 3}
@@ -236,9 +264,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{8}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraname}{9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Raciocínio automático}
@@ -265,7 +293,7 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -294,7 +322,7 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -323,7 +351,7 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -352,7 +380,7 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{12}
+      \field{extraname}{13}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -381,7 +409,7 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{13}
+      \field{extraname}{14}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -394,35 +422,6 @@
       \endverb
       \verb{url}
       \verb https://2324moodle.isel.pt/pluginfile.php/1240634/mod_resource/content/1/14-plan-pee.pdf
-      \endverb
-    \endentry
-    \entry{pds}{online}{}
-      \name{author}{1}{}{%
-        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
-           family={Morgado},
-           familyi={M\bibinitperiod},
-           given={Luis},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
-      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
-      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
-      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
-      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{14}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Processos de decisão sequencial}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://2324moodle.isel.pt/pluginfile.php/1241346/mod_resource/content/2/15-pds.pdf
-      \endverb
-      \verb{url}
-      \verb https://2324moodle.isel.pt/pluginfile.php/1241346/mod_resource/content/2/15-pds.pdf
       \endverb
     \endentry
     \entry{pdm}{online}{}
@@ -454,7 +453,7 @@
       \verb https://2324moodle.isel.pt/pluginfile.php/1241347/mod_resource/content/1/16-plan-pdm.pdf
       \endverb
     \endentry
-    \entry{p1}{online}{}
+    \entry{apr}{online}{}
       \name{author}{1}{}{%
         {{hash=8f532b296d7645b616471d6f81ef75ea}{%
            family={Morgado},
@@ -471,6 +470,35 @@
       \field{extraname}{16}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aprendizagem por reforço}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241988/mod_resource/content/1/17-aprend-ref.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241988/mod_resource/content/1/17-aprend-ref.pdf
+      \endverb
+    \endentry
+    \entry{p1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Projecto - Parte 1}
@@ -497,9 +525,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{17}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Projecto - Parte 2}
@@ -526,9 +554,9 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{18}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Projecto - Parte 3}
@@ -555,7 +583,7 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{19}
+      \field{extraname}{20}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}

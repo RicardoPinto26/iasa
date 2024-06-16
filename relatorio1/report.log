@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  15 JUN 2024 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  16 JUN 2024 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -493,14 +493,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {C:/Users/Wild/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logoISEL.pd
-f>]) (report.toc)
+f>]) (report.toc [1
+
+
+])
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [1
-
-
-] [2] (report.lof)
+ [2] (report.lof)
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
@@ -515,48 +515,54 @@ Overfull \hbox (9.72733pt too wide) in paragraph at lines 59--61
  []
 
 
-Overfull \hbox (2.79297pt too wide) in paragraph at lines 65--66
+Overfull \hbox (14.25534pt too wide) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/12 Este re-lat^^Sorio serve de com-ple-mento ao pro-jeto, visto 
+que junta todo o en-quan-dra-mento
+ []
+
+
+Overfull \hbox (2.79297pt too wide) in paragraph at lines 67--68
 []\OT1/cmr/m/n/12 - Bi-bli-o-teca para de-sen-vol-vi-mento de agen-tes re-ac-ti
 -vos em Python. Mo-dula^^Xc~ao
  []
 
 [4]
-Overfull \hbox (11.84894pt too wide) in paragraph at lines 73--74
+Overfull \hbox (11.84894pt too wide) in paragraph at lines 80--81
 []\OT1/cmr/m/n/12 - com base nes-ses mo-de-los e te-o-rias, de-sen-vol-ver sis-
 te-mas ca-pa-zes de apre-sen-tar
  []
 
 
-Overfull \hbox (0.84297pt too wide) in paragraph at lines 92--94
+Overfull \hbox (0.84297pt too wide) in paragraph at lines 99--101
 \OT1/cmr/m/n/12 pro-ces-sada nes-sas re-des de forma dis-tribu^^S^^Pda, em par-
 ti-cu-lar nas liga^^Xc~oes en-tre neur^^Sonios,
  []
 
 
-Overfull \hbox (7.09662pt too wide) in paragraph at lines 92--94
+Overfull \hbox (7.09662pt too wide) in paragraph at lines 99--101
 \OT1/cmr/m/n/12 em vez de s^^S^^Pmbolos. Este pa-ra-digma ^^Se ins-pi-rado no c
 o-nhe-ci-mento atual do fun-ci-o-na-mento
  []
 
 [5]
-Overfull \hbox (62.19928pt too wide) in paragraph at lines 111--112
+Overfull \hbox (62.19928pt too wide) in paragraph at lines 118--119
 []\OT1/cmr/m/n/12 Um sis-tema aut^^Sonomo in-te-li-gente opera num ci-clo re-a-
 li-men-tado per-cep^^Xc~ao-processamento-ac^^Xc~ao,
  []
 
 [6]
-Overfull \hbox (10.13408pt too wide) in paragraph at lines 131--132
+Overfull \hbox (10.13408pt too wide) in paragraph at lines 138--139
 \OT1/cmr/m/n/12 mesma forma, ou seja, cada ac^^Xc~ao leva a um re-sul-tado ex-p
 ect^^Savel. Se for es-toc^^Sastico,
  []
 
 
-Overfull \hbox (0.87714pt too wide) in paragraph at lines 133--134
+Overfull \hbox (0.87714pt too wide) in paragraph at lines 140--141
 []\OT1/cmr/m/n/12 - Se um am-bi-ente for to-tal-mente ob-serv^^Savel,
  []
 
 [7]
-Overfull \hbox (11.211pt too wide) in paragraph at lines 157--158
+Overfull \hbox (11.211pt too wide) in paragraph at lines 164--165
 []\OT1/cmr/m/n/12 - Re-pre-senta uma con-fi-gura^^Xc~ao poss^^S^^Pvel do pro-bl
 ema. []E ^^Sunico para um pro-blema. 
  []
@@ -568,10 +574,10 @@ PDF version <1.7>, but at most version <1.5> allowed
 <espaco_estados.pdf, id=55, 227.89139pt x 205.72859pt>
 File: espaco_estados.pdf Graphic file (type pdf)
 <use espaco_estados.pdf>
-Package pdftex.def Info: espaco_estados.pdf  used on input line 176.
+Package pdftex.def Info: espaco_estados.pdf  used on input line 183.
 (pdftex.def)             Requested size: 227.89082pt x 205.72807pt.
 
-Overfull \hbox (6.06097pt too wide) in paragraph at lines 173--179
+Overfull \hbox (6.06097pt too wide) in paragraph at lines 180--186
 []\OT1/cmr/m/n/12 Um espa^^Xco de es-ta-dos ^^Se um con-junto de es-ta-dos e de
  transi^^Xc~oes de es-tado re-pre-sen-tado
  []
@@ -580,61 +586,61 @@ Overfull \hbox (6.06097pt too wide) in paragraph at lines 173--179
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (8.47493pt too wide) in paragraph at lines 181--183
+Overfull \hbox (8.47493pt too wide) in paragraph at lines 188--190
 \OT1/cmr/m/n/12 A pro-cura em espa^^Xcos de es-ta-dos ^^Se um m^^Setodo de re-s
 olu^^Xc~ao de pro-ble-mas de pla-ne-a-mento,
  []
 
 
-Overfull \hbox (7.43466pt too wide) in paragraph at lines 189--190
+Overfull \hbox (7.43466pt too wide) in paragraph at lines 196--197
 []\OT1/cmr/m/n/12 O es-tado atual ^^Se ex-pan-dido, sendo ge-ra-dos to-dos os e
 s-ta-dos su-ces-so-res por aplica^^Xc~ao
  []
 
 [8] [9 <./espaco_estados.pdf>]
-Overfull \hbox (7.66235pt too wide) in paragraph at lines 235--236
+Overfull \hbox (7.66235pt too wide) in paragraph at lines 242--243
 []\OT1/cmr/m/n/12 Esta pro-cura ma-xi-miza a pro-fun-di-dade do ramo cor-rente 
 de pro-cura, ape-nas mu-dando
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
 
-Overfull \hbox (44.22528pt too wide) in paragraph at lines 251--252
+Overfull \hbox (44.22528pt too wide) in paragraph at lines 258--259
 []\OT1/cmr/m/n/12 - Pro-cura em pro-fun-di-dade
  []
 
 [10]
-Overfull \hbox (7.8857pt too wide) in paragraph at lines 252--253
+Overfull \hbox (7.8857pt too wide) in paragraph at lines 259--260
 []\OT1/cmr/m/n/12 - Pro-cura que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 270--272
 
  []
 
 [11]
-Overfull \hbox (5.99986pt too wide) in paragraph at lines 311--312
+Overfull \hbox (5.99986pt too wide) in paragraph at lines 318--319
 \OT1/cmr/m/n/12 her^^S^^Psticas, que s~ao m^^Setodos r^^Sapidos de es-tima^^Xc~
 ao de va-lo-res ou de re-solu^^Xc~ao de pro-ble-mas. 
  []
 
 
-Overfull \hbox (6.6819pt too wide) in paragraph at lines 315--316
+Overfull \hbox (6.6819pt too wide) in paragraph at lines 322--323
 [][]\OT1/cmr/m/n/12 E de va-lor no-tar que o va-lor ^^Se com-ple-ta-mente in-de
 -pen-dente do per-curso an-te-ri-or-mente
  []
@@ -646,25 +652,25 @@ sion <1.7>, but at most version <1.5> allowed
 <modelos.pdf, id=86, 472.76625pt x 260.975pt>
 File: modelos.pdf Graphic file (type pdf)
 <use modelos.pdf>
-Package pdftex.def Info: modelos.pdf  used on input line 354.
+Package pdftex.def Info: modelos.pdf  used on input line 361.
 (pdftex.def)             Requested size: 378.2135pt x 208.78027pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
-Overfull \hbox (8.08873pt too wide) in paragraph at lines 373--376
+Overfull \hbox (8.08873pt too wide) in paragraph at lines 380--383
 \OT1/cmr/m/n/12 tipo de com-por-ta-men-tos ne-ces-sita de um me-ca-nismo de se-
 lec^^Xc~ao de ac^^Xc~ao para de-ter-mi-nar
  []
 
 
-Overfull \hbox (0.8953pt too wide) in paragraph at lines 373--376
+Overfull \hbox (0.8953pt too wide) in paragraph at lines 380--383
 \OT1/cmr/m/n/12 a ac^^Xc~ao a re-a-li-zar em fun^^Xc~ao das res-pos-tas dos v^^
 Sarios com-por-ta-men-tos in-ter-nos. Exis-tem
  []
 
 [14 <./modelos.pdf>]
-Overfull \hbox (3.25891pt too wide) in paragraph at lines 378--379
+Overfull \hbox (3.25891pt too wide) in paragraph at lines 385--386
 []\OT1/cmr/m/n/12 - Os com-por-ta-men-tos est~ao or-ga-ni-za-dos numa hi-e-rar-
 quia fixa de sub-sun^^Xc~ao
  []
@@ -676,119 +682,164 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 <mecanismosselecao.pdf, id=109, 435.6275pt x 520.94624pt>
 File: mecanismosselecao.pdf Graphic file (type pdf)
 <use mecanismosselecao.pdf>
-Package pdftex.def Info: mecanismosselecao.pdf  used on input line 384.
+Package pdftex.def Info: mecanismosselecao.pdf  used on input line 391.
 (pdftex.def)             Requested size: 217.81322pt x 260.47249pt.
 
-Overfull \hbox (9.06789pt too wide) in paragraph at lines 388--390
+Overfull \hbox (9.06789pt too wide) in paragraph at lines 395--397
 \OT1/cmr/m/n/12 com-por-ta-men-tal, tamb^^Sem de-sig-nado com-por-ta-mento, o q
 ual re-pre-senta o com-por-ta-mento
  []
 
 [15 <./mecanismosselecao.pdf>]
-Overfull \hbox (4.33322pt too wide) in paragraph at lines 397--398
+Overfull \hbox (4.33322pt too wide) in paragraph at lines 404--405
 []\OT1/cmr/m/n/12 Pode re-pre-sen-tar din^amicas tem-po-rais, evo-luindo o es-t
 ado, e a res-posta ser de-fi-nida
  []
 
 
-Overfull \hbox (0.28604pt too wide) in paragraph at lines 398--399
+Overfull \hbox (0.28604pt too wide) in paragraph at lines 405--406
 []\OT1/cmr/m/n/12 Possibilidade de com-por-ta-men-tos mais com-ple-xos ba-se-a-
 dos na evolu^^Xc~ao de es-tado. 
  []
 
 
-Overfull \hbox (2.14851pt too wide) in paragraph at lines 399--400
+Overfull \hbox (2.14851pt too wide) in paragraph at lines 406--407
 []\OT1/cmr/m/n/12 Capacidade de li-dar com si-tua^^Xc~oes de fa-lha por ex-plor
 a^^Xc~ao de ac^^Xc~oes n~ao re-a-li-za-das
  []
 
 [16] [17]
-Overfull \hbox (21.2747pt too wide) in paragraph at lines 445--446
+
+pdfTeX warning: pdflatex.exe (file ./bellman_equations.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<bellman_equations.pdf, id=135, 554.14737pt x 170.9123pt>
+File: bellman_equations.pdf Graphic file (type pdf)
+<use bellman_equations.pdf>
+Package pdftex.def Info: bellman_equations.pdf  used on input line 480.
+(pdftex.def)             Requested size: 441.01772pt x 136.02327pt.
+[18 <./bellman_equations.pdf>]
+Overfull \hbox (21.2747pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/12 pro-du-zi-dos no de-sen-vol-vi-mento de soft-ware, uti-li-zando
  m^^Setodos e pro-ces-sos ade-qua-dos
  []
 
 
-Overfull \hbox (13.40674pt too wide) in paragraph at lines 453--454
+Overfull \hbox (13.40674pt too wide) in paragraph at lines 498--499
 \OT1/cmr/m/n/12 Expressa na cres-cente di-fi-cul-dade de de-sen-vol-vi-mento, o
 pera^^Xc~ao e ma-nu-ten^^Xc~ao de soft-ware,
  []
 
 
-Overfull \hbox (18.7276pt too wide) in paragraph at lines 455--456
+Overfull \hbox (18.7276pt too wide) in paragraph at lines 500--501
 []\OT1/cmr/m/n/12 O cres-ci-mento da com-ple-xi-dade de um sis-tema de forma n~
 ao ade-qua-da-mente con-tro-lada,
  []
 
-[18]
-Overfull \hbox (5.20358pt too wide) in paragraph at lines 474--475
+[19]
+Overfull \hbox (5.20358pt too wide) in paragraph at lines 519--520
 \OT1/cmr/m/n/12 en-tre si fo-rem os ele-men-tos agru-pa-dos em cada m^^Sodulo. 
 Pode ser me-dida uti-li-zando
  []
 
 
-Overfull \hbox (20.43808pt too wide) in paragraph at lines 486--487
+Overfull \hbox (20.43808pt too wide) in paragraph at lines 531--532
 []\OT1/cmr/m/n/12 - A de-com-posi^^Xc~ao das par-tes de um sis-tema de modo a e
 li-mi-nar re-dund^ancia.
  []
 
-[19] [20]
-Overfull \hbox (1.38148pt too wide) in paragraph at lines 502--506
+[20] [21]
+Overfull \hbox (1.38148pt too wide) in paragraph at lines 547--551
 \OT1/cmr/m/n/12 aco-pla-mento que uma as-so-cia^^Xc~ao. A com-posi^^Xc~ao acon-
 tece quando uma parte ^^Se com-posta
  []
 
 
-Overfull \hbox (36.61067pt too wide) in paragraph at lines 519--520
+Overfull \hbox (36.61067pt too wide) in paragraph at lines 564--565
 []\OT1/cmr/m/n/12 Para fi-na-li-zar a pri-meira parte do pro-jeto, foi ent~ao m
 o-du-lada a classe Con-tro-lo-Per-so-na-gem. 
  []
 
-[21] [22]
-Overfull \hbox (26.83301pt too wide) in paragraph at lines 536--538
+
+Overfull \hbox (0.48187pt too wide) in paragraph at lines 568--569
+[]\OT1/cmr/m/n/12 Esta pri-meira parte do pro-jeto est^^Sa di-re-ta-mente re-la
+-ci-o-nada com os se-guin-tes t^^Sopicos
+ []
+
+[22] [23]
+Overfull \hbox (26.83301pt too wide) in paragraph at lines 590--592
 []\OT1/cmr/m/n/12 De se-guida, fo-ram de-sen-vol-vi-das as clas-ses Apro-xi-mar
 -Dir, Es-ti-mu-lo-Alvo, Apro-xi-ma-rAlvo,
  []
 
 
-Overfull \hbox (8.62025pt too wide) in paragraph at lines 536--538
+Overfull \hbox (8.62025pt too wide) in paragraph at lines 590--592
 \OT1/cmr/m/n/12 Evi-tar-Dir, Es-ti-mu-lo-Obst, Evi-ta-rObst e Res-pos-ta-E-vi-t
 ar. Com es-tas clas-ses de-sen-vol-vi-das,
  []
 
-[23] [24] [25]
-Overfull \hbox (1.03464pt too wide) in paragraph at lines 552--553
+[24]
+Overfull \hbox (5.86514pt too wide) in paragraph at lines 607--608
+\OT1/cmr/m/n/12 Na ter-ceira parte do pro-jeto, foi de-sen-vol-vido todo o su-p
+orte para o ra-cioc^^S^^Pnio au-tom^^Satico
+ []
+
+
+Overfull \hbox (21.53581pt too wide) in paragraph at lines 612--613
+[]\OT1/cmr/m/n/12 Sendo mo-de-lado o pro-blema, foi poss^^S^^Pvel tes-tar to-da
+s os ti-pos de pro-cura im-ple-men-ta-dos,
+ []
+
+[25]
+Overfull \hbox (12.32628pt too wide) in paragraph at lines 624--625
+\OT1/cmr/m/n/12 A quarta e ^^Sultima parte do pro-jeto come^^Xcou com a im-ple-
+menta^^Xc~ao dos m^^Sodulos ne-cess^^Sarios
+ []
+
+
+Overfull \hbox (16.47476pt too wide) in paragraph at lines 631--632
+[]\OT1/cmr/m/n/12 De se-guida, foi ini-ci-ada a ^^Sultima im-ple-menta^^Xc~ao d
+o pro-jeto, sendo esta a im-ple-menta^^Xc~ao
+ []
+
+
+Overfull \hbox (14.56508pt too wide) in paragraph at lines 633--634
+[]\OT1/cmr/m/n/12 Nesta im-ple-menta^^Xc~ao, ^^Se de no-tar a classe Mo-de-loPD
+M-Plan, onde fo-ram im-ple-men-ta-das
+ []
+
+[26]
+Overfull \hbox (1.03464pt too wide) in paragraph at lines 654--655
 \OT1/cmr/m/n/12 so-bre a forma de co-ment^^Sarios no c^^Sodigo) nesta Uni-dade 
 Cur-ri-cu-lar, com a do-cu-menta^^Xc~ao
  []
 
-[26]
-Overfull \hbox (2.07361pt too wide) in paragraph at lines 556--558
-\OT1/cmr/m/n/12 O pro-jeto at^^Se ao mo-mento abor-dou v^^Sarios t^^Sopicos fun
--da-men-tais da In-te-lig^encia Ar-ti-fi-cial
+[27]
+Overfull \hbox (4.62488pt too wide) in paragraph at lines 661--663
+\OT1/cmr/m/n/12 not^^Savel o apro-vei-ta-mento da Uni-dade Cur-ri-cu-lar, tendo
+ sido poss^^S^^Pvel ad-qui-rir in-forma^^Xc~ao
  []
 
-[27]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
-61.
+[28]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
+66.
  (C:\Users\Wild\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (34.35185pt too wide) in paragraph at lines 561--561
-[]\OT1/cmr/m/n/12 Luis Mor-gado. \OT1/cmr/m/it/12 In-trodu^^Xc~ao ^^Ra in-te-li
-g^encia ar-ti-fi-cial\OT1/cmr/m/n/12 . 2024. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/1
-2 : $\OT1/pcr/m/n/12 https : / / 2324moodle .
- []
-
-
-Overfull \hbox (19.94066pt too wide) in paragraph at lines 561--561
+Overfull \hbox (19.94066pt too wide) in paragraph at lines 666--666
 []\OT1/cmr/m/n/12 Luis Mor-gado. \OT1/cmr/m/it/12 Pro-ces-sos de de-cis~ao se-q
 uen-cial\OT1/cmr/m/n/12 . 2024. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/pcr
 /m/n/12 https : / / 2324moodle .
  []
 
-[28{C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-[29] (report.aux (title_page.aux))
+
+Overfull \hbox (34.35185pt too wide) in paragraph at lines 666--666
+[]\OT1/cmr/m/n/12 Luis Mor-gado. \OT1/cmr/m/it/12 In-trodu^^Xc~ao ^^Ra in-te-li
+g^encia ar-ti-fi-cial\OT1/cmr/m/n/12 . 2024. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/1
+2 : $\OT1/pcr/m/n/12 https : / / 2324moodle .
+ []
+
+[29{C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+[30] (report.aux (title_page.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -802,13 +853,13 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12575 strings out of 474435
- 234809 string characters out of 5742405
+ 12612 strings out of 474435
+ 235755 string characters out of 5742405
  1942190 words of memory out of 5000000
- 34789 multiletter control sequences out of 15000+600000
+ 34826 multiletter control sequences out of 15000+600000
  564764 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,12n,81p,681b,1628s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,12n,81p,681b,2735s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Wild\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk> <C:\Users\Wild\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1440.pk><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -818,15 +869,16 @@ blic/amsfonts/cm/cmcsc10.pfb><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Wild/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Wild/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Wild/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Wil
-d/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Us
-ers/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/u
-crr8a.pfb>
-Output written on report.pdf (30 pages, 788694 bytes).
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Wild/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+<C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y8.pfb><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti12.pfb><C:/Users/Wild/AppData/Local/Programs/MiKTeX/fonts/type1/urw/cou
+rier/ucrr8a.pfb>
+Output written on report.pdf (31 pages, 838531 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
+ 243 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -55,18 +55,25 @@ numberstyle = \tiny,
 \listoftables
 
 \newpage
-\section{Introdução}
+\section{Introdução} \label{introducao}
 Este relatório detalha um estudo abrangente e a implementação subsequente de um projeto que se encontra na intersecção entre a inteligência artificial para sistemas autónomos (IASA) e engenharia de software. 
-O documento inicia com um enquadramento teórico sólido que visa oferecer uma visão clara sobre os conceitos fundamentais de I.A., especialmente focados no desenvolvimento de agentes reativos, e as práticas essenciais da engenharia de software que sustentam a construção de softwares robustos e eficientes.
+O documento inicia com um enquadramento teórico sólido que visa oferecer uma visão clara sobre os conceitos fundamentais de I.A., e as práticas essenciais da engenharia de software que sustentam a construção de softwares robustos e eficientes.
 
-Foram realizadas duas partes do projecto, sendo estas:
+Este relatório serve de complemento ao projeto, visto que junta todo o enquandramento teórico necessário para compreender o código. No entanto, este relatório não substitui o projeto em si, e deve ser lido (especialmente a seguir ao enquadramento teórico) acompanhado do projeto.
+
+Foram realizadas 4 partes do projecto, sendo estas:
 \begin{description}
 	\item[Parte 1] - Agente reactivo em Java. Desenvolvido o agente e ambiente. O agente atua sobre o ambiente de um jogo, onde o objectivo é fotografar animais.
 	\item[Parte 2] - Biblioteca para desenvolvimento de agentes reactivos em Python. Modulação de um agente reactivo para encontrar alvos e evitar paredes.
+	\item[Parte 3] - Biblioteca para desenvolvimento de agentes deliberativos com base em PEE em Python. Modulação de um agente deliberativo de contagem.
+	\item[Parte 4] - Modulação de um agente deliberativo com base em PEE para para encontrar alvos e evitar paredes.  Biblioteca para desenvolvimento de agentes deliberativos com base em PDM em Python. Modulação de um agente deliberativo com base em PDM para para encontrar alvos e evitar paredes.
 \end{description}
+
+No final o objectivo é ter uma biblioteca de inteligência artificial para sistemas autónomos bem implementada e testada capaz de ser usada para vários problemas diferentes.
+
 \newpage
-\section{Enquadramento teórico}
-\subsection{Inteligência Artificial}
+\section{Enquadramento teórico} \label{enquadramento_teorico}
+\subsection{Inteligência Artificial} \label{inteligencia_artificial}
 A inteligência artificial é uma área científica que estuda o desenvolvimento de sistemas computacionais capazes de comportamento inteligente, que adopta duas principais perpectivas: analítica e sintética.
 \begin{description}
 	\item[Analítica] - por via empírica (baseada na prática, com experiências e observações) desenvolver modelos e teorias para explicar os fenómenos observados e reproduzir esses fenómenos e sistemas artificiais (dispositivos criados para o efeito).
@@ -80,7 +87,7 @@ Existem 3 principais paradigmas da inteligência artificial, sendo eles:
 	\item Comportamental
 \end{itemize}
 
-\subsubsection{Paradigma Simbólico}
+\subsubsection{Paradigma Simbólico} \label{paradigma_simbolico}
 Um símbolo é um elemento discreto de representação de informação. Estes são centrais no processamento de informação e na representação de conceitos relacionados com o domínio de um problema sob a forma de estruturas simbólicas.
 Neste paradigma, a inteligência é o resultado da acção de processos computacionais sobre estruturas simbólicas.
 
@@ -88,15 +95,15 @@ Neste paradigma, a inteligência é o resultado da acção de processos computac
 
 Num sistema artificial o significado é construído através de relacionamentos entre simbolos.
 
-\subsubsection{Paradigma Conexionista}
+\subsubsection{Paradigma Conexionista} \label{paradigma_conexionista}
 A inteligência é uma propriedade emergente das interacções de um número elevado de unidades elementares de processamento interligadas entre si.
 Neste paradigma o processamento de informação é baseado em redes de unidades de processamento elementares (designadas neurónios) interligadas entre si, sendo a informação mantida e processada nessas redes de forma distribuída, em particular nas ligações entre neurónios, em vez de símbolos. Este paradigma é inspirado no conhecimento atual do funcionamento do cérebro humano.
 
-\subsubsection{Paradigma Comportamental}
+\subsubsection{Paradigma Comportamental} \label{paradigma_comportamental}
 A inteligência resulta do comportamento individual e conjunto de múltiplos sistemas a diferentes escalas de organização tendo por base relações entre estímulos e respostas.
 No paradigma comportamental o processamento de informação é baseado em relações entre estímulos e respostas, modeladas sob a forma de reacções e de comportamentos (conjuntos estruturados de reacções).
 
-\subsubsection{Agente Inteligente}
+\subsubsection{Agente Inteligente} \label{agente_inteligente}
 Um sistema autónomo descreve-se pela independência, ou seja, pela capacidade de existir e funcionar sem depender de outros sistemas.
 
 Um sistema inteligente descreve-se por possuir cognição e racionalidade.
@@ -121,7 +128,7 @@ Um agente inteligente pode ter as seguintes características, dependendo da sua 
 \end{description}
 Estas características estão associadas à concretização da finalidade do agente, ou seja, do seu objectivo, expresso na função que realiza.
 
-\subsubsection{Representação do Ambiente}
+\subsubsection{Representação do Ambiente} \label{representacao_do_ambiente}
 A representação do ambiente é um elemento de suporte do processamento interno em alguns modelos de agente inteligente.
 Essas representações podem ter diferentes níveis de complexidade.
 
@@ -134,7 +141,7 @@ Um ambiente tem diversas propriedades:
 	\item[Agente único/Múltiplos agentes] - Um ambiente poderá ter apenas um agente a atuar sobre este, um vários.
 \end{description}
 
-\subsubsection{Raciocínio Automático}
+\subsubsection{Raciocínio Automático} \label{raciocinio_automatico}
 
 O raciocínio automático refere-se à capacidade de resolver de forma automática um problema, tendo como base uma representação de conhecimento do domínio do mesmo, produzindo uma solução a partir da exploração das diversas alternativas possíveis.
 
@@ -177,7 +184,7 @@ Um espaço de estados é um conjunto de estados e de transições de estado repr
 \caption{Exemplo de um espaço de estados, onde o problema corresponde à contagem de um número binário com 3 casas (ou seja, de 0 a 7), onde é possível incrementar/decrementar 1, 2 ou 4.}
 \end{figure}
 
-\subsubsection{Procura em Espaços de Estados}
+\subsubsection{Procura em Espaços de Estados} \label{procura_em_espacos_de_estados}
 A procura em espaços de estados é um método de resolução de problemas de planeamento, onde se pretende encontrar uma sequência de estados e operadores que levem de um estado inicial a um estado final (estado objectivo).
 Uma solução deste tipo de problemas é um percurso no espaço de estados, que liga o estado inicial a um estado objectivo.
 
@@ -340,7 +347,7 @@ Esta procura garante que qualquer nó selecionado está num percurso óptimo, po
 
 Apesar de esta procura ser de eficiência óptima, esta não resolve o problema da complexidade combinatória, isto é, o número de nós expandidos continua a ser uma função exponencial da dimensão do percurso até ao objectivo.
 
-\subsubsection{Arquitetura de Agentes}
+\subsubsection{Arquitetura de Agentes} \label{arquitetura_de_agentes}
 Existem 3 modelos usados na arquitetura de agentes:
 \begin{description}
 	\item[Modelo Reactivo] - Este modelo segue o paradigma comportamental. Neste modelo o comportamento do sistema é gerado de forma reactiva, com base em associações entre estímulos (referentes às percepções) e respostas.
@@ -356,7 +363,7 @@ Existem 3 modelos usados na arquitetura de agentes:
 \end{figure}
 
 \newpage
-\paragraph{Arquitetura de Agentes Reactivos}
+\paragraph{Arquitetura de Agentes Reactivos} \label{arquitetura_de_agentes_reactivos}
 Neste tipo de arquitetura, o comportamento do sistema é gerado de forma reativa, baseando-se em associações entre estímulos. Os objetivos não estão representados de forma explicita, pelo contrário, encontram-se de forma implícita nas associações estímulo-resposta que definem o comportamento do agente.
 Existe um acoplamento forte com o ambiente, em alguns casos directo, através de associações entre os estímulos derivados das percepções e a respostas que produzem acções.
 Neste tipo de arquitetura, as acções são directamente activadas em função das percepções. Não são utilizadas representações internas do mundo, as respostas são rápidas mediante alterações no ambiente, e são fixas e predefinidas aos estímulos do ambiente, ou seja, para um mesmo estímulo, é sempre atuada a mesma acção.
@@ -406,7 +413,7 @@ Algumas desvantagens são:
 	\item Mesmo com a manutenção de estado, as arquitecturas reactivas não suportam representações complexas, nem exploram planos alternativos de acção.
 \end{itemize}
 
-\paragraph{Arquitetura de Agentes Deliberativos}
+\paragraph{Arquitetura de Agentes Deliberativos} \label{arquitetura_de_agentes_deliberativos}
 Como foi anteriormente explorado, os agentes baseados em arquitecturas reactivas não são capazes de anticipar o futuro, sendo esta uma habilidade dos agentes deliberativos.
 
 Numa arquitectura deliberativa, é a memória que desempenha o papel central na geração do comportamento do agente. É a memória que é o suporte de representação do mundo e dos mecanismos de deliberação, que são nomeadamente, mecanismos de raciocínio e de tomada de decisão.
@@ -433,12 +440,50 @@ O processo de tomada de decisão e acção tem os seguintes passos:
 
 Neste tipo de arquiteturas, o modelo do mundo e os mecanismos de raciocínio prático podem ser organizados num controlo deliberativo, que executa todo o processo de tomada de decisão e acção, recebendo percepções, e gerando acções.
 
-\subsubsection{Processos de Decisão Sequencial}
+\subsubsection{Processos de Decisão Sequencial} \label{processos_de_decisao_sequencial}
+No problema geral de tomada de decisão de um agente deliberativo, os estados e acções do agente vão alternando ao longo do tempo, em função das decisões do agente, das acções selecionadas e dos resultados das mesmas. Sabendo isto, é necesário existir uma forma de prever e controlar as acções do agente ao longo do tempo, de modo a atingir um objectivo a longo prazo.
 
+Devido a esta necessidade, surgem os processos de decisão sequencial, onde para cada estado, cada uma das decisões de acção podem levar a múltiplas ramificações de estados e decisões futuras.
+A utilidade desses estados futuros pode não ser conhecido de imediato, podendo ser diferido no tempo, em função do encadeamento de estados e decisões futuras. É também de frisar que a própria evolução dos estados observados em função das acções realizadas pode não ser determinista, o que quer dizer que o resultado de uma acção pode não ser completamente previsível, ou seja, uma acção aplicada num estado, pode ter mais do que 1 resultado possível (o que resulta em existirem várias transicções possíveis para a mesma acção).
+
+A utilidade resulta de um conjunto de decisões, onde podem existir ganhos e perdas, sendo que o valor é cumulativo. Sendo que o ambiente pode não ser determinista, é necessário ter em conta a recompensa (valor que representa o ganho ou perda que terá uma transição) de cada transição possível para a acção.
+
+\subsubsection{Processos de Decisão de Markov (PDM)} \label{processos_de_decisao_de_markov}
+Um tipo de processo de decisão sequencial é o processo de decisão de Markov.
+
+Neste tipo de processos, a probabilidade de transição para um estado depende exclusivamente do estado atual.
+
+A representação do mundo sob a forma de PDM é feita da seguinte forma:
+
+\begin{description}
+	\item[\(S\)] - conjunto de estados do mundo.
+	\item[\(A(s)\)] - conjunto de acções possíveis no estado \(s \in S\).
+	\item[\(T(s,a,s')\)] - probabilidade de transição de \(s\) para \(s'\) através de \(a\).
+	\item[\(R(s,a,s')\)] - recompensa esperada na transição de \(s\) para \(s'\) através de \(a\).
+	\item[\(\gamma\)] - taxa de desconto para recompensas diferidas no tempo.
+	\item[\(t\)] - tempo discreto (0,1,2,3,...).
+\end{description}
+
+O raciocínio automático com base em PDM envolve o cálculo da função de utilidade, que define o valor associado a cada estado do problema, a qual serve de suporte ao cálculo da política ótima de acção, que determina a seleção das ações que maximizam o valor da acção em cada estado.
+
+A política comportamental refere-se à estratégia de acção do agente, ou seja, esta define qual a acção que deve ser realizada em cada estado. A política pode ser determinista ou não determinista.
+\begin{description}
+	\item[Política determinista] - Cada estado está associado a uma ação.
+	\item[Política não determinista] - Para cada par estado-acção, existe uma associação com um valor entre 0 e 1, ou seja, a probabilidade dessa acção ser escolhida. Os pares estado-acção devem ser o produto cartesiano entre o conjunto dos estados e o conjunto das acções.
+\end{description}
+
+Para encontrar a solução ótima, é preciso decompor o problema em sub-problemas, assumindo a independência entre caminhos.
+
+A utilidade de cada estado é calculada a partir das utilidades dos estados sucessores de acordo com as equações de Bellman, que têm a seguinte forma:
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{bellman_equations}
+\caption{Equações de Bellman - \cite{pds}}
+\end{figure}
 
 \newpage
-\subsection{Engenharia de Software em I.A.}
-\subsubsection{O que é?}
+\subsection{Engenharia de Software em I.A.} \label{engenharia_de_software_em_ia}
+\subsubsection{O que é?} \label{o_que_e}
 A engenharia de software é uma área de engenharia orientada para a especificação, desenvolvimento e manutenção de software, que tem por objectivo o desenvolvimento, operação e manutenção de software de modo sistemático e quantificável.
 \begin{description}
 	\item[Sistemático] - Significa a capacidade de realizar o desenvolvimento de software de forma organizada e previsível, de modo a garantir a satisfação dos requisitos definidos, incluindo tempo e recursos necessários.
@@ -449,7 +494,7 @@ O desenvolvimento de software de forma sistemática e quantificável é importan
 Além disso, a aplicação das boas práticas da engenharia de software leva a software mais robusto e produzido com maior rapidez.
 
 Existem dois principais obstáculos que crescem ao longo do desenvolvimento: a complexidade e a mudança.
-\subsubsection{Complexidade}
+\subsubsection{Complexidade} \label{complexidade}
 Expressa na crescente dificuldade de desenvolvimento, operação e manutenção de software, na crescente sofisticação do software produzido, bem como na quantidade crescente de recursos envolvidos, nomeadamente, em termos de capacidade de processamento e de memória utilizada.
 
 O crescimento da complexidade de um sistema de forma não adequadamente controlada, pode tornar o esforço de desenvolvimento muito elevado, a ponto de comprometer a viabilidade do respetivo projecto. Isto deve-se ao facto da complexidade crescer exponencialmente, ou seja, um sistema com duas vezes mais partes é muito mais do que duas vezes mais complexo.
@@ -460,14 +505,14 @@ Para melhor entender o nível de complexidade, é possível dividir a complexida
 	\item[Complexidade desorganizada] - Resulta do número e heterogeneidade das partes de um sistema. As partes podem interagir entre si, mas a interacção é irregular.
 \end{description}
 
-\subsubsection{Mudança}
+\subsubsection{Mudança} \label{mudanca}
 A mudança é expressa no ritmo crescente a que o software necessita de ser produzido, ou modificado, para satisfazer as necessidades dos respetivos contextos de utilização, quer a nível de funcionalidades disponibilizadas, quer a nível das tecnologias utilizadas.
 
-\subsubsection{Arquitetura de Software}
+\subsubsection{Arquitetura de Software} \label{arquitetura_de_software}
 A arquitectura de software tem por objectivo abordar o problema da complexidade com base numa organização adequada do software a produzir.
 Para abordar este problema, necessitamos de 3 vertentes: métricas, princípios e padrões.
 
-\subsubsection{Métricas}
+\paragraph{Métricas} \label{metricas}
 Existem várias métricas para quantificar a qualidade da arquitetura:
 \begin{description}
 	\item[Acoplamento] - O conceito de acoplamento refere-se ao grau de dependência entre diferentes partes de um sistema, sendo tanto maior quanto maior a dependência entre as partes de um sistema. Pode ser medido utilizando diferentes métricas, como o número de associações entre elementos ou o grau de complexidade de uma interface. Quanto menor, melhor.
@@ -475,7 +520,7 @@ Existem várias métricas para quantificar a qualidade da arquitetura:
 	\item[Simplicidade] - Nível de facilidade de compreensão/comunicação da arquitectura.
 	\item[Adaptabilidade] - Nível de facilidade de alteração da arquitectura para incorporação de novos requisitos ou de alterações nos requisitos previamente definidos.
 \end{description}
-\subsubsection{Princípios}
+\paragraph{Princípios} \label{principios}
 \begin{description}
 	\item[Abstração] - Ferramenta base para lidar com a complexidade, é o processo de descrição de conhecimento a diferentes níveis de detalhe e tipos de representação. Por exemplo, ao modular uma maçã e uma banana, é possivel abstrair conceitos comuns para um terceiro tipo, neste caso fruta, do qual ambos a maçã e a banana derivam/extendem.
 	\item[Modularização] - O conceito de modularização refere-se à capacidade de organização de um sistema em partes coesas, ou módulos, que podem ser interligados entre si para produzir a função do sistema, está relacionado com dois aspectos principais, decomposição e encapsulamento.
@@ -486,7 +531,7 @@ Existem várias métricas para quantificar a qualidade da arquitetura:
 	\item[Factorização] - A decomposição das partes de um sistema de modo a eliminar redundância. Por exemplo, se duas funções partilham algum código, é possivel realizar uma terceira função que execute apenas o código comum, para que esse código esteja presente numa única função.
 \end{description}
 
-\subsubsection{Unified Modeling Language - UML}
+\subsubsection{Unified Modeling Language - UML} \label{unified_modeling_language_uml}
 O desenvolvimento de sistemas com base em inteligência artificial é caracterizado pela elevada complexidade desses sistemas. Como tal, requer métodos adequados de engenharia de software, nomeadamente, no que se
 refere à modelação de sistemas, bem como a linguagens de modelação adequadas, como é o caso da linguagem UML.
 	
@@ -520,6 +565,15 @@ Para finalizar a primeira parte do projeto, foi então modulada a classe Control
 
 Após finalizadas todas as classes, foi possivel testar e concluir que o programa estava a funcionar corretamente, sem a necessidade de corrigir algum tipo de código. Isto foi apenas possivel graças à aplicação de boas práticas da engenharia de software durante o desenvolvimento do código, passando por exemplo, pelo desenvolvimento do código estrutural antes do desenvolvimento do código comportamental.
 
+Esta primeira parte do projeto está diretamente relacionada com os seguintes tópicos teóricos:
+
+\begin{itemize}
+	\item \ref{agente_inteligente} Agente Inteligente
+	\item \ref{representacao_do_ambiente} Representação do Ambiente
+	\item \ref{arquitetura_de_agentes_reactivos} Arquitetura de Agentes Reactivos
+	\item \ref{engenharia_de_software_em_ia} Engenharia de Software em I.A.
+\end{itemize}
+
 Estando concluída a primeira parte do projeto, foi então iniciada a segunda parte.
 
 \newpage
@@ -539,22 +593,73 @@ Com estas classes desenvolvidas, é agora possivel incluir não só o comportame
 No final desta parte do projeto, e como foram também aplicadas as boas práticas da engenharia de software durante o desenvolvimento do código, foi apenas necessário corrigir no ControloReact, para que este mostrasse a informação sensorial.
 Sendo verificado que o comportamento agora era o expectável, foi então dada como concluida a segunda parte do projeto.
 
+Esta segunda parte do projeto está diretamente relacionada com os seguintes tópicos teóricos:
+
+\begin{itemize}
+	\item \ref{agente_inteligente} Agente Inteligente
+	\item \ref{representacao_do_ambiente} Representação do Ambiente
+	\item \ref{arquitetura_de_agentes_reactivos} Arquitetura de Agentes Reactivos
+	\item \ref{engenharia_de_software_em_ia} Engenharia de Software em I.A.
+\end{itemize}
+
 \newpage
 \section{Projecto – Parte 3}
-Ainda não incluída.
+Na terceira parte do projeto, foi desenvolvido todo o suporte para o raciocínio automático com base em procura em espaços de estados, sendo possível utilizar vários tipos de procura, tais como: procura em profundidade, procura em profundidade limitada, procura em profundidade iterativa, procura em largura, procura de custo uniforme, procura sôfrega e procura A*.
+
+Sendo desenvolvido este módulo, foi necessário testar a sua implementação. Para tal, foi modulado um problema de contagem, onde a contagem é iniciada a 0, e é pretendido chegar ao valor 9, sendo possível incrementar 1 ou 2 valores em cada passo, com o custo de cada passo igual ao quadrado do valor a incrementar (por exemplo, ao incrementar 2, o custo seria \(2^2=4\)).
+A heurística escolhida foi a diferença absoluta entre o valor do estado e o valor objectivo (neste caso, 9).
+
+Sendo modelado o problema, foi possível testar todas os tipos de procura implementados, sendo verificado que todos estavam funcionais.
+
+Esta terceira parte do projeto está diretamente relacionada com os seguintes tópicos teóricos:
+
+\begin{itemize}
+	\item \ref{raciocinio_automatico} Raciocínio Automático
+	\item \ref{procura_em_espacos_de_estados} Procura em Espaços de Estados
+	\item \ref{arquitetura_de_agentes_deliberativos} Arquitetura de Agentes Deliberativos
+\end{itemize}
 
 \newpage
 \section{Projecto – Parte 4}
-Ainda não incluída.
+A quarta e última parte do projeto começou com a implementação dos módulos necessários para utilizar o raciocínio automático baseado em procura em espaços de estados num agente deliberativo.
+
+Para tal, foi necessário construir os módulos necessários para o controlo deliberativo. Depois, foi necessário modelar o nosso problema de recolha de alvos.
+A heurística escolhida neste caso foi a distância entre o estado e o estado objectivo.
+
+Com estas duas tarefas concluídas, foi possível observar o agente a realizar o raciocínio automático com base em PEE, e comparar visualmente os diferentes tipos de procura.
+
+De seguida, foi iniciada a última implementação do projeto, sendo esta a implementação de um processo de decisão sequencial, mais especificamente o processo de decisão de Markov.
+
+Nesta implementação, é de notar a classe ModeloPDMPlan, onde foram implementadas ambas as interfaces ModeloPlan e ModeloPDM, e dessa forma, este modelo pode ser utilizado nos módulos existentes do agente deliberativo, mas também nos novos módulos de suporte ao processo de decisão de Markov. Além disso, neste módulo é possivel verificar o uso de uma técnica ainda não utilizada no projeto: a delegação de tarefas. Esta classe guarda num atributo privado um ModeloPlan, delegando depois as suas funções associadas a essa interface para esse atributo.
+
+É também de notar que o ambiente utilizado é um ambiente deterministico, logo a probabilidade de transição é sempre 0\% ou 100\%. (100\% se for possível transicionar para aquele estado com aquela acção, 0\% se não)
+
+A recompensa de transição é igual ao oposto do custo da ação, ou se o estado sucessor for um estado objectivo, o valor máximo de recompensa, que é recebido no construtor da classe.
+
+Estando estes módulos desenvolvidos, foi testado o agente deliberativo com base num planeador com base em PDM. Foi verificado que para os ambientes 1, 2, 3 e 7 o agente funcionava perfeitamente. No entanto, para os ambientes 4, 5 e 6 foi necessário aumentar o valor do gama (que por omissão é 0.85), visto que os objectivos encontravam-se mais longe do agente. Ao aumentar o valor do gama para 0.98, foi possível reparar que apesar do agente demorar mais tempo a calcular a política ótima, esta conseguia agora chegar aos objectivos.
+
+Tendo sido testado com sucesso esta última funcionalidade, foi dado como concluído o projeto da Unidade Curricular.
+
+Esta quarta parte do projeto está diretamente relacionada com os seguintes tópicos teóricos:
+\begin{itemize}
+	\item \ref{raciocinio_automatico} Raciocínio Automático
+	\item \ref{procura_em_espacos_de_estados} Procura em Espaços de Estados
+	\item \ref{arquitetura_de_agentes_deliberativos} Arquitetura de Agentes Deliberativos
+	\item \ref{processos_de_decisao_sequencial} Processos de Decisão Sequencial
+	\item \ref{processos_de_decisao_de_markov} Processos de Decisão de Markov (PDM)
+\end{itemize}
 
 \newpage
 \section{Revisão do projecto realizado}
-Durante as diversas entregas ocorreram poucos erros, sendo o mais notável a falta de documentação e justificação teórica para o código desenvolvido. Esta deve-se à diferença entre a documentação/justificação teórica (e a forma como esta é pedida, sobre a forma de comentários no código) nesta Unidade Curricular, com a documentação habitual entregue nas restantes unidades curriculares de LEIC (e mesmo quando é necessário algum tipo de justificação teórica, esta é entregue separadamente). De resto, as entregas foram entregues sem erros de código.
+Durante as diversas entregas ocorreram poucos erros, sendo o mais notável a falta de documentação e justificação teórica para o código desenvolvido. Esta deve-se à diferença entre a documentação/justificação teórica (e a forma como esta é pedida, sobre a forma de comentários no código) nesta Unidade Curricular, com a documentação habitual entregue nas restantes unidades curriculares de LEIC (e mesmo quando é necessário algum tipo de justificação teórica, esta é entregue separadamente). No entanto, durante a 3ª e 4ª parte do projeto, foi tido mais cuidado para tentar incluir toda a documentação necessária.
+
+Na entrega do projeto feita junto com o relatório, as únicas mudanças foram ao nível dos comentários, visto que o código já estava realizado e testado na última entrega.
 
 \newpage
 \section{Conclusão}
-O projeto até ao momento abordou vários tópicos fundamentais da Inteligência Artificial para Sistemas Autónomos e da Engenharia de Software, tais como os agentes reactivos e o desenvolvimento de codigo com suporte em UML.
-Com a conclusão da parte 1 e 2 da unidade curricular, é possivel concluir que está desenvolvido, na teoria e prática, uma forte base para a aprendizagem dos seguintes tópicos da unidade curricular, tais como a procura em espaço de estados.
+
+Durante todo o projeto foi possível abordar diversos temas, como agentes reactivos, mecanismos de procura (não informada e informada), agentes deliberativos com base em PEE e em PDM, e diversas vertentes da engenharia de software, como por exemplo, o desenvolvimento de código com suporte em UML.
+Tendo sido concluído o projeto, é notável o aproveitamento da Unidade Curricular, tendo sido possível adquirir informação sobre os diversos temas. Além disso, existe agora uma biblioteca bastante completa que pode ser usada para diversos problemas
 
 \newpage
 \nocite{*}

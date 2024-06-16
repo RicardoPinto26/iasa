@@ -45,7 +45,7 @@ class ModeloPDMPlan(ModeloPlan, ModeloPDM):
         return 1 if self.__transicoes.get((s, a)) == sn else 0
 
     def R(self, s, a, sn):
-        """O custo de transicao e igual ao custo da accao,
+        """A recompensa de transicao e igual ao oposto do custo da accao,
         ou se o estado sucessor for um objectivo, o valor maximo de recompensa."""
         return self.__rmax if sn in self.__objectivos else -a.custo(s, sn)
 

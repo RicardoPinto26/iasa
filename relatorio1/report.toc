@@ -25,18 +25,19 @@
 \contentsline {paragraph}{\numberline {2.1.8.1}Arquitetura de Agentes Reactivos}{14}{}%
 \contentsline {paragraph}{\numberline {2.1.8.2}Arquitetura de Agentes Deliberativos}{16}{}%
 \contentsline {subsubsection}{\numberline {2.1.9}Processos de Decisão Sequencial}{17}{}%
-\contentsline {subsection}{\numberline {2.2}Engenharia de Software em I.A.}{18}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}O que é?}{18}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}Complexidade}{18}{}%
-\contentsline {subsubsection}{\numberline {2.2.3}Mudança}{18}{}%
-\contentsline {subsubsection}{\numberline {2.2.4}Arquitetura de Software}{19}{}%
-\contentsline {subsubsection}{\numberline {2.2.5}Métricas}{19}{}%
-\contentsline {subsubsection}{\numberline {2.2.6}Princípios}{19}{}%
-\contentsline {subsubsection}{\numberline {2.2.7}Unified Modeling Language - UML}{20}{}%
-\contentsline {section}{\numberline {3}Projecto – Parte 1}{21}{}%
-\contentsline {section}{\numberline {4}Projecto – Parte 2}{23}{}%
-\contentsline {section}{\numberline {5}Projecto – Parte 3}{24}{}%
-\contentsline {section}{\numberline {6}Projecto – Parte 4}{25}{}%
-\contentsline {section}{\numberline {7}Revisão do projecto realizado}{26}{}%
-\contentsline {section}{\numberline {8}Conclusão}{27}{}%
-\contentsline {section}{Refer\^encias}{28}{}%
+\contentsline {subsubsection}{\numberline {2.1.10}Processos de Decisão de Markov (PDM)}{17}{}%
+\contentsline {subsection}{\numberline {2.2}Engenharia de Software em I.A.}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}O que é?}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Complexidade}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Mudança}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.4}Arquitetura de Software}{20}{}%
+\contentsline {paragraph}{\numberline {2.2.4.1}Métricas}{20}{}%
+\contentsline {paragraph}{\numberline {2.2.4.2}Princípios}{20}{}%
+\contentsline {subsubsection}{\numberline {2.2.5}Unified Modeling Language - UML}{21}{}%
+\contentsline {section}{\numberline {3}Projecto – Parte 1}{22}{}%
+\contentsline {section}{\numberline {4}Projecto – Parte 2}{24}{}%
+\contentsline {section}{\numberline {5}Projecto – Parte 3}{25}{}%
+\contentsline {section}{\numberline {6}Projecto – Parte 4}{26}{}%
+\contentsline {section}{\numberline {7}Revisão do projecto realizado}{27}{}%
+\contentsline {section}{\numberline {8}Conclusão}{28}{}%
+\contentsline {section}{Refer\^encias}{29}{}%

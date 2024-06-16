@@ -9,7 +9,6 @@ class ProcuraSofrega(ProcuraInformada):
        Ao procurar, tem em conta a minimizacao da estimativa de custo (heuristica) ate ao objectivo.
     """
 
-
     def __init__(self):
         """Construtor da classe"""
         super().__init__(AvaliadorSof())
