@@ -2,3 +2,4 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de um espaço de estados, onde o problema corresponde à contagem de um número binário com 3 casas (ou seja, de 0 a 7), onde é possível incrementar/decrementar 1, 2 ou 4.}}{9}{}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Diagramas dos 3 modelos usadas na arquitetura de agentes}}{14}{}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Diagrama dos mecanismos de seleção: hierarquia e prioridade}}{15}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Equações de Bellman - \blx@tocontentsinit {0}\cite {pds}}}{18}{}%
