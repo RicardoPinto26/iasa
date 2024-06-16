@@ -30,12 +30,29 @@ numberstyle = \tiny,
 \setlength{\headsep}{0cm}
 \setlength{\oddsidemargin}{0.25cm}
 
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                {-3.25ex\@plus -1ex \@minus -.2ex}%
+                {1.5ex \@plus .2ex}%
+                {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\z@}%
+                {-3.25ex\@plus -1ex \@minus -.2ex}%
+                {1.5ex \@plus .2ex}%
+                {\normalfont\normalsize\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{5} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{5}    % how many sectioning levels to show in ToC
+
 \begin{document}
 
 \include{title_page}
 
 \newpage
 \tableofcontents
+
+\newpage
+\listoffigures
+\listoftables
 
 \newpage
 \section{Introdução}
@@ -117,6 +134,308 @@ Um ambiente tem diversas propriedades:
 	\item[Agente único/Múltiplos agentes] - Um ambiente poderá ter apenas um agente a atuar sobre este, um vários.
 \end{description}
 
+\subsubsection{Raciocínio Automático}
+
+O raciocínio automático refere-se à capacidade de resolver de forma automática um problema, tendo como base uma representação de conhecimento do domínio do mesmo, produzindo uma solução a partir da exploração das diversas alternativas possíveis.
+
+Para conseguir produzir uma solução, o processo de raciocínio automático envolve 2 tipos de atividades principais, sendo estas a exploração de opções possíveis e a avaliação das opções para decidir qual a melhor.
+
+\begin{description}
+	\item[Exploração de opções possíveis] - Deve usar um raciocínio prospectivo, ou seja, deve antecipar o que pode acontecer, e requer uma simulação interna do domínio do problema.
+	\item[Avaliação de opções] - As opções são avaliadas através do seu o custo, ou seja, os recursos necessários para a opção, e o seu valor, ou seja, os ganhos ou perdas da opção, que podem ser medidos, por exemplo, em termos de utilidade.
+\end{description}
+
+A representação do conhecimento do domínio do problema implica que haja uma conversão da informação concreta do problema, para estruturas simbólicas que servem como base à simulação para exploração e avaliação das opções possíveis.
+
+Esta conversão envolve 2 processos: codificação e descodificação.
+A codificação trata-se da conversão da informação concreta do problema em estruturas simbólicas internas, enquanto que a descodificação é a operação inversa, ou seja, converte as estruturas simbólicas em informações concretas do problema.
+
+Sendo necessário guardar estruturas simbólicas para realizar a exploração de opções, é necessário estabelecer como é que estas funcionam.
+Estas estruturas devem ter a informação necessária para resolver o problema, e são designadas de ''modelo do problema''. O modelo do problema é representado através de:
+
+\begin{description}
+	\item[Estado] - Representa uma configuração possível do problema. É único para um problema.
+	\item[Operador] - Representa uma acção que produz uma transformação do estado. Ao operar sobre um estado, é produzida uma transição que corresponde à geração de um novo estado.
+\end{description}
+
+Tendo esta informação, é possível descrever o raciocínio automático como tendo 4 requisitos:
+
+\begin{description}
+	\item[Definição de Estado]
+	\item[Definição dos Operadores]
+	\item[Descrição do Problema] - Um problema pode ser descrito através de 3 elementos:\hfill \\
+		Estado inicial \hfill \\
+		Operadores \hfill \\
+		Objectivos
+	\item[Mecanismo de Raciocínio] - Mecanismo que faz a exploração e avaliação das opções possíveis, usando como base a descrição do problema, e que mantém um modelo do problema interno.
+\end{description}
+
+Um espaço de estados é um conjunto de estados e de transições de estado representado sob a forma de um grafo, onde cada vértice corresponde a um estado e cada aresta corresponde a uma transição entre estados.
+\begin{figure}[h]
+\centering
+\includegraphics{espaco_estados}
+\caption{Exemplo de um espaço de estados, onde o problema corresponde à contagem de um número binário com 3 casas (ou seja, de 0 a 7), onde é possível incrementar/decrementar 1, 2 ou 4.}
+\end{figure}
+
+\subsubsection{Procura em Espaços de Estados}
+A procura em espaços de estados é um método de resolução de problemas de planeamento, onde se pretende encontrar uma sequência de estados e operadores que levem de um estado inicial a um estado final (estado objectivo).
+Uma solução deste tipo de problemas é um percurso no espaço de estados, que liga o estado inicial a um estado objectivo.
+
+O processo de procura ocorre por exploração do espaço de estados a partir do estado inicial. Esta exploração ocorre da seguinte forma:
+
+Em cada passo do processamento, ocorre o seguinte:
+\begin{itemize}
+	\item Primeiro é verificado se o estado atual é um estado objectivo. Caso seja, o processamento termina e é retornado o percurso do estado inicial ao estado atual. Caso não seja, continua o processamento.
+	\item O estado atual é expandido, sendo gerados todos os estados sucessores por aplicação de todos os operadores possíveis.
+	\item É processado cada estado sucessor.
+	\item Se não existiram mais estados sucessores, o processo de procura termina, não existindo solução.
+\end{itemize}
+
+Para guardar a informação gerada em cada passo da procura, é mantida uma árvore de procura quem mantém a informação relativa a cada transição de estado explorada.
+Esta árvore relaciona cada nó com o seu antecessor, e mantém a informação do estado correspondente a cada nó, e o operador que originou a transição do estado antecessor para o estado do nó.
+
+É importante conhecer alguns conceitos sobre a exploração em árvores de procura:
+\begin{description}
+	\item[Raiz da árvore] - Nó correspondente ao estado inicial.
+	\item[Fronteira de exploração] - Estrutura de dados com relação de ordem que mantém os nós a explorar. O critério de ordenação da fronteira é o que determina a estratégia de controlo de procura.
+	\item[Nó fechado] - Nó que já foi expandido.
+	\item[Nó aberto] - Nó por expandir.
+\end{description}
+
+\paragraph{Métodos de procura}
+Existem vários métodos de executar a procura no espaço de estados. Alguns dos aspectos a considerar para cada método de procura são:
+
+\begin{description}
+	\item[Completo] - Método que garante que, caso exista uma solução, esta é encontrada.
+	\item[Óptimo] - Método que, existindo várias soluções, garante que encontra a melhor.
+	\item[Complexidade Espacial] - Memória necessária para encontrar uma solução.
+	\item[Complexidade Temporal] - Tempo necessário para encontrar uma solução.
+\end{description}
+
+Além disso, é necessário conhecer também os parâmetros de caracterização de um método de procura:
+\begin{description}
+	\item[Factor de Ramificação (Branching Factor)] - Número máximo de sucessores para um qualquer estado. Designado pela letra ''b''.
+	\item[Profundidade da Procura (Search Depth)] - Profundidade do nó objectivo menos profundo da árvore de procura, ou seja, a dimensão do percurso entre o estado inicial e esse estado objectivo. Designado pela letra ''d''.
+\end{description}
+
+\subparagraph{Procura geral em grafos}
+Todos os métodos de procura estudados são métodos de procura em grafos, mais concretamento, procuras no grafo do espaço de estados.
+
+Neste tipo de procuras, é necessário eliminar os nós correspondentes a estados repetidos, e para este efeito, é necessário verificar se um novo nó sucessor corresponde a um estado que já foi previamente explorado, e se for, apenas o nó com o menor custo deve ser mantido, e os outros eliminados.
+
+Para esta verificação, é preciso ter em conta tanto os nós abertos, como os fechados.
+
+De modo a facilitar o processamento de nós repetidos, pode ser mantida uma única memória de nós previamentes explorados, que inclui ambos os nós abertos e os nós fechados. É importante notar que apesar de esta estrutura manter uma coleção dos nós abertos, esta não substitui a fronteira de exploração, servindo apenas para facilitar o processamento de nós repetidos.
+
+Para um processamento mais eficiente, esta memória deve ser indexada por estado, para que haja um acesso eficiente na verificação dos nós já explorados.
+
+\subparagraph{Procura em profundidade (Depth-First Search)}
+Na procura em profundidade, o critério de exploração é a maior profundidade, ou seja, os nós mais recentes são explorados primeiro (os primeiros nós da fronteira), e os nós gerados são inseridos no início da fronteira. Isto representa uma fronteira do tipo LIFO (Last In, First Out), ou seja, onde o último nó a ser gerado é o primeiro a ser explorado.
+
+Esta procura maximiza a profundidade do ramo corrente de procura, apenas mudando de ramo quando não for possível gerar mais estados sucessores para o estado atual.
+
+Este tipo de procura ocupa menos memória que a procura por largura, mas não é nem óptima nem completa.
+\\
+
+Complexidade Temporal: \(O(b^m)\)
+\\
+
+Complexidade Espacial: \( O(b*m)\)
+\begin{description}
+	\item[b] - factor de ramificação.
+	\item[m] - profundidade máxima da árvore de procura.
+\end{description}
+
+Esta procura tem 2 sub-tipos:
+\begin{description}
+	\item[Pocura em profundidade limitada (Depth-Limited Search)] - Procura em profundidade que limita a procura a uma profundidade máxima.
+	\item[Pocura em profundidade iterativa (Iterative Deepening Search)] - Procura que realiza sucessivas procuras em profundidade limitada, com uma profundidade máxima iterativamente crescente.
+\end{description}
+
+\subparagraph{Procura em largura (Breadth-First Search)}
+Na procura em largura, o critério de exploração é a menor profundidade, ou seja, os nós mais antigos são explorados primeiro (os últimos nós da fronteira), e os nós gerados são inseridos no fim da fronteira. Isto representa uma fronteira do tipo FIFO (First In, First Out), ou seja, onde o primeiro nó a ser gerado é o primeiro a ser explorado.
+
+Esta procura explora exaustivamente cada nível de procura antes de explorar um nó a um nível de maior profundidade, apenas aumentando a profundidade quando não por possível gerar mais nós na profundidade atual.
+
+Este tipo de procura ocupa mais memória que a procura por profundidade, mas em contra-partida, é óptima e completa.
+\\
+
+Complexidade Temporal: \(O(b^d)\)
+\\
+
+Complexidade Espacial: \( O(b*d)\)
+\begin{description}
+	\item[b] - factor de ramificação.
+	\item[d] - dimensão da solução.
+\end{description}
+
+\subparagraph{Procura melhor-primeiro (Best-First)}
+Na procura melhor-primeiro,existe uma função f(n) que é capaz de avaliar um nó, dando a este uma prioridade. Através dessa avaliação, a fronteira de exploração é ordenada por ordem crescente da prioridade de cada nó.
+
+Tipicamente, f(n) corresponde a uma estimativa do custo da solução através do nó. Ou seja, quanto menor o valor de f(n), mais promissor é o nó.
+
+\subparagraph{Procura de custo uniforme}
+A procura de custo uniforme trata-se de um caso particular da procura melhor-primeiro, onde f(n) corresponde ao custo do nó, ou seja, f(n) corresponde ao custo do percurso desde o estado inicial até ao estado do nó.
+
+\subparagraph{Comparação entre as diferentes procuras}
+Para avaliar as diferentes procuras, é possivel olhar para as diferentes métricas e decidir qual destas melhor se aplica ao problema em questão.
+
+\begin{table}[ht]
+\resizebox{\textwidth}{!}{\begin{tabular}[h]{ |c|c|c|c|c| } 
+ \hline
+Método de Procura & Complexidade Temporal & Complexidade Espacial & Óptimo & Completo \\ 
+Profundidade & \(O(b^m)\) & \(O(b*m)\) & Não & Não \\ 
+Profundidade Limitada & \(O(b^l)\) & \(O(b*l)\) & Não & Não \\ 
+Profundidade Iterativa & \(O(b^d)\) & \(O(b*d)\) & Sim & Sim \\ 
+Largura & \(O(b^d)\) & \(O(b^d)\) & Sim & Sim \\ 
+Custo Uniforme & \(O(b^{C^{*}/\epsilon})\) & \(O(b^{C^{*}/\epsilon})\) & Sim & Sim \\ 
+ \hline
+\end{tabular}}
+\begin{tabular}[h]{r | l}
+    b & factor de ramificação\\
+    d & dimensão da solução\\
+    m & profundidade da árvore de procura\\
+    l & limite de profundidade \\
+    \(C^{*}\) & Custo da solução óptima \\
+    \(\epsilon\) & Custo mínimo de uma transição de estado (\(\epsilon > 0\))
+\end{tabular}
+\caption{Comparação entre os diferentes métodos de procura} 
+\end{table} 
+
+\paragraph{Métodos de Procura Informada}
+Todos os métodos até agora abordados foram métodos de procura não informada, visto que não utilizam o conhecimento do domínio do problema para otimizar a sua procura, sendo que apenas fazem uma exploração exaustiva do espaço de estados.
+
+Pelo contrário, os métodos de procura informada fazem uma procura guiada, ou seja, tiram partido do conhecimento do domínio do problema para ordenar a sua fronteira de exploração, fazendo uma exploração selectiva do espaço de estados.
+
+\subparagraph{Procura melhor-primeiro (Best-First)}
+A procura melhor-primeiro pode também ser usada como um método de procura informada, definindo f(n) baseado em estimativas de custo, ou seja, com base em herísticas, que são métodos rápidos de estimação de valores ou de resolução de problemas.
+
+Uma função de heurística (cujo simbolo é h(n)) representa uma estimativa do custo do percurso do nó até ao nó objectivo (sendo uma estimativa, o valor desta pode não ser igual ao valor real, cujo simbolo é g(n)).
+
+É de valor notar que o valor é completamente independente do percurso anteriormente realizado, a heurística depende apenas do estado associado ao nó, e do objectivo.
+
+Sendo assim, podemos definir 3 principais variantes da procura melhor-primeiro:
+
+\begin{description}
+	\item[f(n) = g(n)] - Procura de Custo Uniforme. Esta minimiza o custo acumulado até cada nó explorado, mas é uma procura não informada, logo não tira partido do conhecimento do domínio do problema expresso através da função h(n).
+	\item[f(n) = h(n)] - Procura Sôfrega. Esta minimiza a estimativa de custo para atingir o objectivo, não tendo em conta o percurso explorado.
+	\item[f(n) = g(n) + h(n)] - Procura A*. Esta minimiza o custo global, ou seja, o custo acumulado até ao nó + a estimativa de custo até ao objectivo.
+\end{description}
+
+\subparagraph{Procura Sôfrega}
+Este tipo de procura apresenta uma menor complexidade computacional e é completa, mas pode apresentar uma solução sub-óptima.
+
+\subparagraph{Heurística Admissível e Consistente}
+Uma heurística admissível é uma heurística em que a estimativa de custo é sempre inferior ou igual ao custo efectivo mínimo, ou seja, o valor estimado deve estar entre 0 e o custo mínimo do nó até ao objectivo através do percurso óptimo.
+
+No caso geral, é possivel obter uma heurística admissível através da remoção de restrições associadas ao problema.
+
+Uma heurística consistente (ou monótona) é uma heurística onde a estimativa de custo de n para objectivo é menor do que o custo real de transição de n para n' mais a estimativa de custo de n' para objectivo, para qualquer n.
+Esta heurística é obrigatóriamente admissível, mas uma heurística admissível pode não ser consistente.
+
+\subparagraph{Procura A*}
+Este tipo de procura é completo e óptimo, desde que utilize uma heurística consistente.
+
+Esta procura garante que qualquer nó selecionado está num percurso óptimo, pois qualquer outro caminho terá um custo maior ou igual.
+
+Apesar de esta procura ser de eficiência óptima, esta não resolve o problema da complexidade combinatória, isto é, o número de nós expandidos continua a ser uma função exponencial da dimensão do percurso até ao objectivo.
+
+\subsubsection{Arquitetura de Agentes}
+Existem 3 modelos usados na arquitetura de agentes:
+\begin{description}
+	\item[Modelo Reactivo] - Este modelo segue o paradigma comportamental. Neste modelo o comportamento do sistema é gerado de forma reactiva, com base em associações entre estímulos (referentes às percepções) e respostas.
+	\item[Modelo Deliberativo] - Este modelo segue o paradigma simbólico. Neste modelo o comportamento do sistema é gerado com base em mecanismos de deliberação (raciocínio e tomada de decisão), utilizando representações internas que incluem a representação explícita de objectivos.
+	\item[Modelo Híbrido] - Neste modelo o comportamento do sistema é gerado com base em processamento que integra as vertentes reactiva e deliberativa. Este modelo não é alvo de estudo da Unidade Curricular.
+\end{description}
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{modelos}
+\caption{Diagramas dos 3 modelos usadas na arquitetura de agentes}
+\end{figure}
+
+\newpage
+\paragraph{Arquitetura de Agentes Reactivos}
+Neste tipo de arquitetura, o comportamento do sistema é gerado de forma reativa, baseando-se em associações entre estímulos. Os objetivos não estão representados de forma explicita, pelo contrário, encontram-se de forma implícita nas associações estímulo-resposta que definem o comportamento do agente.
+Existe um acoplamento forte com o ambiente, em alguns casos directo, através de associações entre os estímulos derivados das percepções e a respostas que produzem acções.
+Neste tipo de arquitetura, as acções são directamente activadas em função das percepções. Não são utilizadas representações internas do mundo, as respostas são rápidas mediante alterações no ambiente, e são fixas e predefinidas aos estímulos do ambiente, ou seja, para um mesmo estímulo, é sempre atuada a mesma acção.
+
+No caso de reacções simples, as associações estímulo-resposta podem ser definidos através de regras SE-ENTÃO. Por exemplo, SE for avistado um animal, ENTÃO tirar fotografia.
+No entanto, as reacções podem envolver processamentos mais complexos incluindo a manutenção de estado interno com base em mecanismos de memória. Nessa situação, os vários elementos envolvidos numa reacção devem ser modularizados, de forma a poderem ser organizados de forma versátil e a encapsular a complexidade necessária à sua função. Em particular, devem ser definidos os seguintes elementos:
+
+\begin{description}
+	\item[Estímulo] - Define informação activadora de uma reacção.
+	\item[Resposta] - Define uma resposta a estímulos, em termos de acção a realizar e da respectiva prioridade.
+	\item[Reacção] - Módulo que associa estímulos a respostas.
+\end{description}
+
+Nesta arquitetura, o agente reactivo é composto por conjuntos de reacções, as quais devem ser organizadas de forma modular em módulos comportamentais designados comportamentos, de modo a reduzir a complexidade e a facilitar o desenvolvimento e manutenção do agente. Um comportamento é um conjunto de reacções relacionadas entre si no sentido de produzirem um resultado específico, por exemplo, evitar um obstáculo.  Um comportamento realiza de forma modular e coesa o encapsulamento das reacções internas, contribuindo assim para reduzir o acoplamento e a complexidade da arquitectura de um agente reactivo.
+Um comportamento pode também ser composto por outros comportamentos, tratando-se assim de um comportamento composto. Este tipo de comportamentos necessita de um mecanismo de selecção de acção para determinar a acção a realizar em função das respostas dos vários comportamentos internos.
+Existem vários mecanismos de selecção, que podem executar acções em paralelo, escolher acções por prioridade, ou até combinar acções. Dois tipos de mecanismos de selecção de acção que escolhem uma acção por prioridade são: a hierarquia, e a prioridade.
+
+\begin{description}
+	\item[Hierarquia] - Os comportamentos estão organizados numa hierarquia fixa de subsunção (supressão e substituição)
+	\item[Prioridade] - As respostas são seleccionadas de acordo com uma prioridade associada que varia ao longo da execução.
+\end{description}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{mecanismosselecao}
+\caption{Diagrama dos mecanismos de seleção: hierarquia e prioridade}
+\end{figure}
+
+Na concretização de uma arquitectura de agente, o processamento interno que relaciona percepções com acções, pode ser modularizado com base num módulo de controlo.
+No caso da arquitectura de um agente reactivo, esse controlo será um controlo reactivo, em que o processar das percepções é realizado com base num módulo comportamental, também designado comportamento, o qual representa o comportamento geral do agente que pode ser constituído por diferentes sub-comportamentos.
+
+Para modelação dos comportamentos de um agente reactivo, deve ser realizada a análise do domínio do problema a resolver para identificação de diferentes aspectos, como a informação que o agente recebe do ambiente (para modelação das percepções), que tipo de acções a realizar e, em particular, qual a finalidade do agente, definida em termos de objectivos concretos.
+A concretização dos objectivos identificados, deve posteriormente ser modelada sob a forma de comportamentos, os quais, por sua vez, podem ser definidos em termos de sub-objectivos que serão realizados sob a forma de sub-comportamentos, de forma modular.
+
+A arquitetura reativa pode ser implementada com memória, e nesse caso, as reacções para além de dependerem das percepções, dependem também da memoria de percepções anteriores para gerar as ações, as reacções podem envolver não apenas percepções, mas também estado interno (memória). As vantagens de manter o estado interno são:
+\begin{itemize}
+	\item pode produzir todo o tipo de comportamento.
+	\item Pode representar dinâmicas temporais, evoluindo o estado, e a resposta ser definida tendo em conta percepções anteriores.
+	\item Possibilidade de comportamentos mais complexos baseados na evolução de estado.
+	\item Capacidade de lidar com situações de falha por exploração de acções não realizadas anteriormente.
+\end{itemize}
+
+Algumas desvantagens são:
+\begin{itemize}
+	\item Elevada complexidade espacial (memória).
+	\item Elevada complexidade computacional (manter os estados).
+	\item Mesmo com a manutenção de estado, as arquitecturas reactivas não suportam representações complexas, nem exploram planos alternativos de acção.
+\end{itemize}
+
+\paragraph{Arquitetura de Agentes Deliberativos}
+Como foi anteriormente explorado, os agentes baseados em arquitecturas reactivas não são capazes de anticipar o futuro, sendo esta uma habilidade dos agentes deliberativos.
+
+Numa arquitectura deliberativa, é a memória que desempenha o papel central na geração do comportamento do agente. É a memória que é o suporte de representação do mundo e dos mecanismos de deliberação, que são nomeadamente, mecanismos de raciocínio e de tomada de decisão.
+
+Esta arquitectura o comportamento é gerado com base em processos de planeamento suportados pelo modelo do mundo.
+
+Aplicando os conceitos do raciocínio automático ao conceito do agente autónomo, encontramos o raciocínio prático. Este tipo de raciocínio é orientado para a acção, e são utilizadas representações simbólicas dos objectivos a atingir, das acção que os agente pode realizar e do ambiente, sendo posteriormente gerados planos de acção que vão ditar o comportamento do agente.
+
+Este tipo de raciocínio é caracterizado por 2 principais componentes, sendo estas: a deliberação, ou seja, o raciocínio sobre os fins a atingir, e que tem como resultado um conjunto de objectivos a concretizar, e o planeamento, ou seja, o raciocínio sobre as acções e recursos necessários para atingir os fins, que tem como resultado planos de acção para conseguir concretizar os objectivos determinados pela deliberação.
+
+Estas duas componentes são suportadas pelo modelo do mundo, que é atualizado pelas percepções do ambiente, mas também por efeito de mecanismos de raciocínio prático, estes que também podem ser influenciados pelas percepções, em específico, através de eventos que influenciam os mecanismos de deliberação e planeamento.
+
+Nestas arquiteturas, é o raciocínio prático que suporta o processo geral de tomada de decisão que determina o comportamento do agente, ou seja, quais as acções a realizar dadas as percepções obtidas e o estado do modelo do mundo.
+
+O processo de tomada de decisão e acção tem os seguintes passos:
+\begin{enumerate}
+	\item Observar o mundo (mais concretamente, gerar percepções)
+	\item Actualizar o modelo do mundo
+	\item Se for não for necessário reconsiderar, saltar para o passo 6.
+	\item Deliberar o que fazer (mais concretamente, gerar um conjunto de objectivos)
+	\item Planear como o fazer (ou seja, gerar um plano de acção)
+	\item Executar o plano de acção.
+\end{enumerate}
+
+Neste tipo de arquiteturas, o modelo do mundo e os mecanismos de raciocínio prático podem ser organizados num controlo deliberativo, que executa todo o processo de tomada de decisão e acção, recebendo percepções, e gerando acções.
+
+\subsubsection{Processos de Decisão Sequencial}
+
+
 \newpage
 \subsection{Engenharia de Software em I.A.}
 \subsubsection{O que é?}
@@ -170,62 +489,6 @@ Existem várias métricas para quantificar a qualidade da arquitetura:
 \subsubsection{Unified Modeling Language - UML}
 O desenvolvimento de sistemas com base em inteligência artificial é caracterizado pela elevada complexidade desses sistemas. Como tal, requer métodos adequados de engenharia de software, nomeadamente, no que se
 refere à modelação de sistemas, bem como a linguagens de modelação adequadas, como é o caso da linguagem UML.
-
-\subsection{Arquiteturas de Agente}
-Existem 3 modelos usados na arquitetura de agentes:
-\begin{description}
-	\item[Modelo Reactivo] - Este modelo segue o paradigma comportamental. Neste modelo o comportamento do sistema é gerado de forma reactiva, com base em associações entre estímulos (referentes às percepções) e respostas.
-	\item[Modelo Deliberativo] - Este modelo segue o paradigma simbólico. Neste modelo o comportamento do sistema é gerado com base em mecanismos de deliberação (raciocínio e tomada de decisão), utilizando representações internas que incluem a representação explícita de objectivos.
-	\item[Modelo Híbrido] - Neste modelo o comportamento do sistema é gerado com base em processamento que integra as vertentes reactiva e deliberativa. Este modelo não é alvo de estudo da Unidade Curricular.
-\end{description}
-
-\includegraphics[scale=0.8]{modelos}
-
-\newpage
-\subsubsection{Arquitetura de Agentes Reactivos}
-Neste tipo de arquitetura, o comportamento do sistema é gerado de forma reativa, baseando-se em associações entre estímulos. Os objetivos não estão representados de forma explicita, pelo contrário, encontram-se de forma implícita nas associações estímulo-resposta que definem o comportamento do agente.
-Existe um acoplamento forte com o ambiente, em alguns casos directo, através de associações entre os estímulos derivados das percepções e a respostas que produzem acções.
-Neste tipo de arquitetura, as acções são directamente activadas em função das percepções. Não são utilizadas representações internas do mundo, as respostas são rápidas mediante alterações no ambiente, e são fixas e predefinidas aos estímulos do ambiente, ou seja, para um mesmo estímulo, é sempre atuada a mesma acção.
-
-No caso de reacções simples, as associações estímulo-resposta podem ser definidos através de regras SE-ENTÃO. Por exemplo, SE for avistado um animal, ENTÃO tirar fotografia.
-No entanto, as reacções podem envolver processamentos mais complexos incluindo a manutenção de estado interno com base em mecanismos de memória. Nessa situação, os vários elementos envolvidos numa reacção devem ser modularizados, de forma a poderem ser organizados de forma versátil e a encapsular a complexidade necessária à sua função. Em particular, devem ser definidos os seguintes elementos:
-
-\begin{description}
-	\item[Estímulo] - Define informação activadora de uma reacção.
-	\item[Resposta] - Define uma resposta a estímulos, em termos de acção a realizar e da respectiva prioridade.
-	\item[Reacção] - Módulo que associa estímulos a respostas.
-\end{description}
-
-Nesta arquitetura, o agente reactivo é composto por conjuntos de reacções, as quais devem ser organizadas de forma modular em módulos comportamentais designados comportamentos, de modo a reduzir a complexidade e a facilitar o desenvolvimento e manutenção do agente. Um comportamento é um conjunto de reacções relacionadas entre si no sentido de produzirem um resultado específico, por exemplo, evitar um obstáculo.  Um comportamento realiza de forma modular e coesa o encapsulamento das reacções internas, contribuindo assim para reduzir o acoplamento e a complexidade da arquitectura de um agente reactivo.
-Um comportamento pode também ser composto por outros comportamentos, tratando-se assim de um comportamento composto. Este tipo de comportamentos necessita de um mecanismo de selecção de acção para determinar a acção a realizar em função das respostas dos vários comportamentos internos.
-Existem vários mecanismos de selecção, que podem executar acções em paralelo, escolher acções por prioridade, ou até combinar acções. Dois tipos de mecanismos de selecção de acção que escolhem uma acção por prioridade são: a hierarquia, e a prioridade.
-
-\begin{description}
-	\item[Hierarquia] - Os comportamentos estão organizados numa hierarquia fixa de subsunção (supressão e substituição)
-	\item[Prioridade] - As respostas são seleccionadas de acordo com uma prioridade associada que varia ao longo da execução.
-\end{description}
-\includegraphics[scale=0.5]{mecanismosselecao}
-
-Na concretização de uma arquitectura de agente, o processamento interno que relaciona percepções com acções, pode ser modularizado com base num módulo de controlo.
-No caso da arquitectura de um agente reactivo, esse controlo será um controlo reactivo, em que o processar das percepções é realizado com base num módulo comportamental, também designado comportamento, o qual representa o comportamento geral do agente que pode ser constituído por diferentes sub-comportamentos.
-
-Para modelação dos comportamentos de um agente reactivo, deve ser realizada a análise do domínio do problema a resolver para identificação de diferentes aspectos, como a informação que o agente recebe do ambiente (para modelação das percepções), que tipo de acções a realizar e, em particular, qual a finalidade do agente, definida em termos de objectivos concretos.
-A concretização dos objectivos identificados, deve posteriormente ser modelada sob a forma de comportamentos, os quais, por sua vez, podem ser definidos em termos de sub-objectivos que serão realizados sob a forma de sub-comportamentos, de forma modular.
-
-A arquitetura reativa pode ser implementada com memória, e nesse caso, as reacções para além de dependerem das percepções, dependem também da memoria de percepções anteriores para gerar as ações, as reacções podem envolver não apenas percepções, mas também estado interno (memória). As vantagens de manter o estado interno são:
-\begin{itemize}
-	\item pode produzir todo o tipo de comportamento.
-	\item Pode representar dinâmicas temporais, evoluindo o estado, e a resposta ser definida tendo em conta percepções anteriores.
-	\item Possibilidade de comportamentos mais complexos baseados na evolução de estado.
-	\item Capacidade de lidar com situações de falha por exploração de acções não realizadas anteriormente.
-\end{itemize}
-
-Algumas desvantagens são:
-\begin{itemize}
-	\item Elevada complexidade espacial (memória).
-	\item Elevada complexidade computacional (manter os estados).
-	\item Mesmo com a manutenção de estado, as arquitecturas reactivas não suportam representações complexas, nem exploram planos alternativos de acção.
-\end{itemize}
 	
 \newpage
 \section{Projecto – Parte 1}

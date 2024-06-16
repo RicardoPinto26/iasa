@@ -222,7 +222,7 @@
       \verb https://2324moodle.isel.pt/pluginfile.php/1238392/mod_resource/content/1/08-arq-react-3.pdf
       \endverb
     \endentry
-    \entry{p1}{online}{}
+    \entry{ra}{online}{}
       \name{author}{1}{}{%
         {{hash=8f532b296d7645b616471d6f81ef75ea}{%
            family={Morgado},
@@ -239,6 +239,238 @@
       \field{extraname}{8}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Raciocínio automático}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239030/mod_resource/content/2/09-rac-aut.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239030/mod_resource/content/2/09-rac-aut.pdf
+      \endverb
+    \endentry
+    \entry{pee1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procura em espaços de estados - Parte 1}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239031/mod_resource/content/3/10-pee-1.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239031/mod_resource/content/3/10-pee-1.pdf
+      \endverb
+    \endentry
+    \entry{pee2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{10}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procura em espaços de estados - Parte 2}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239033/mod_resource/content/1/11-pee-2.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239033/mod_resource/content/1/11-pee-2.pdf
+      \endverb
+    \endentry
+    \entry{pee3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{11}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procura em espaços de estados - Parte 3}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239034/mod_resource/content/1/12-pee-3.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239034/mod_resource/content/1/12-pee-3.pdf
+      \endverb
+    \endentry
+    \entry{aad}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{12}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Arquitectura de agentes deliberativos}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1240633/mod_resource/content/1/13-arq-delib.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1240633/mod_resource/content/1/13-arq-delib.pdf
+      \endverb
+    \endentry
+    \entry{pabpee}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{13}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Planeamento automático com base em procura em espaços de estados}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1240634/mod_resource/content/1/14-plan-pee.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1240634/mod_resource/content/1/14-plan-pee.pdf
+      \endverb
+    \endentry
+    \entry{pds}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{14}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Processos de decisão sequencial}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241346/mod_resource/content/2/15-pds.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241346/mod_resource/content/2/15-pds.pdf
+      \endverb
+    \endentry
+    \entry{pdm}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{15}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Planeamento automático com base em PDM}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241347/mod_resource/content/1/16-plan-pdm.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1241347/mod_resource/content/1/16-plan-pdm.pdf
+      \endverb
+    \endentry
+    \entry{p1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{16}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Projecto - Parte 1}
@@ -265,7 +497,7 @@
       \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
       \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
-      \field{extraname}{9}
+      \field{extraname}{17}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -278,6 +510,64 @@
       \endverb
       \verb{url}
       \verb https://2324moodle.isel.pt/pluginfile.php/1237118/mod_resource/content/1/P2-iasa-proj.pdf
+      \endverb
+    \endentry
+    \entry{p3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{18}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Projecto - Parte 3}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239199/mod_resource/content/1/P3-iasa-proj.pdff
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1239199/mod_resource/content/1/P3-iasa-proj.pdff
+      \endverb
+    \endentry
+    \entry{p4}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f532b296d7645b616471d6f81ef75ea}{%
+           family={Morgado},
+           familyi={M\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{fullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{bibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorbibnamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authornamehash}{8f532b296d7645b616471d6f81ef75ea}
+      \strng{authorfullhash}{8f532b296d7645b616471d6f81ef75ea}
+      \field{extraname}{19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Projecto - Parte 4}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1240912/mod_resource/content/5/P4-iasa-proj.pdf
+      \endverb
+      \verb{url}
+      \verb https://2324moodle.isel.pt/pluginfile.php/1240912/mod_resource/content/5/P4-iasa-proj.pdf
       \endverb
     \endentry
   \enddatalist

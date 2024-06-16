@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class Fronteira(ABC):
     """Classe que representa uma fronteira de exploracao.
-       Uma fronteira de exploracao e uma estrutura de dados que contem os nos a explorar."""
+       Uma fronteira de exploracao e uma estrutura de dados com relação de ordem que contem os nos a explorar."""
 
     @property
     def vazia(self):

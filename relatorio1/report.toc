@@ -1,26 +1,42 @@
 \babel@toc {portuguese}{}\relax 
-\contentsline {section}{\numberline {1}Introdução}{2}{}%
-\contentsline {section}{\numberline {2}Enquadramento teórico}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Inteligência Artificial}{3}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Paradigma Simbólico}{3}{}%
-\contentsline {subsubsection}{\numberline {2.1.2}Paradigma Conexionista}{3}{}%
-\contentsline {subsubsection}{\numberline {2.1.3}Paradigma Comportamental}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.4}Agente Inteligente}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.5}Representação do Ambiente}{5}{}%
-\contentsline {subsection}{\numberline {2.2}Engenharia de Software em I.A.}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}O que é?}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}Complexidade}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.3}Mudança}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.4}Arquitetura de Software}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.5}Métricas}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.6}Princípios}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.7}Unified Modeling Language - UML}{8}{}%
-\contentsline {subsection}{\numberline {2.3}Arquiteturas de Agente}{8}{}%
-\contentsline {subsubsection}{\numberline {2.3.1}Arquitetura de Agentes Reactivos}{9}{}%
-\contentsline {section}{\numberline {3}Projecto – Parte 1}{12}{}%
-\contentsline {section}{\numberline {4}Projecto – Parte 2}{14}{}%
-\contentsline {section}{\numberline {5}Projecto – Parte 3}{15}{}%
-\contentsline {section}{\numberline {6}Projecto – Parte 4}{16}{}%
-\contentsline {section}{\numberline {7}Revisão do projecto realizado}{17}{}%
-\contentsline {section}{\numberline {8}Conclusão}{18}{}%
-\contentsline {section}{Refer\^encias}{19}{}%
+\contentsline {section}{\numberline {1}Introdução}{4}{}%
+\contentsline {section}{\numberline {2}Enquadramento teórico}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Inteligência Artificial}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Paradigma Simbólico}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Paradigma Conexionista}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Paradigma Comportamental}{6}{}%
+\contentsline {subsubsection}{\numberline {2.1.4}Agente Inteligente}{6}{}%
+\contentsline {subsubsection}{\numberline {2.1.5}Representação do Ambiente}{7}{}%
+\contentsline {subsubsection}{\numberline {2.1.6}Raciocínio Automático}{7}{}%
+\contentsline {subsubsection}{\numberline {2.1.7}Procura em Espaços de Estados}{8}{}%
+\contentsline {paragraph}{\numberline {2.1.7.1}Métodos de procura}{9}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.1.1}Procura geral em grafos}{10}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.1.2}Procura em profundidade (Depth-First Search)}{10}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.1.3}Procura em largura (Breadth-First Search)}{11}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.1.4}Procura melhor-primeiro (Best-First)}{11}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.1.5}Procura de custo uniforme}{11}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.1.6}Comparação entre as diferentes procuras}{11}{}%
+\contentsline {paragraph}{\numberline {2.1.7.2}Métodos de Procura Informada}{12}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.2.1}Procura melhor-primeiro (Best-First)}{12}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.2.2}Procura Sôfrega}{12}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.2.3}Heurística Admissível e Consistente}{13}{}%
+\contentsline {subparagraph}{\numberline {2.1.7.2.4}Procura A*}{13}{}%
+\contentsline {subsubsection}{\numberline {2.1.8}Arquitetura de Agentes}{13}{}%
+\contentsline {paragraph}{\numberline {2.1.8.1}Arquitetura de Agentes Reactivos}{14}{}%
+\contentsline {paragraph}{\numberline {2.1.8.2}Arquitetura de Agentes Deliberativos}{16}{}%
+\contentsline {subsubsection}{\numberline {2.1.9}Processos de Decisão Sequencial}{17}{}%
+\contentsline {subsection}{\numberline {2.2}Engenharia de Software em I.A.}{18}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}O que é?}{18}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Complexidade}{18}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Mudança}{18}{}%
+\contentsline {subsubsection}{\numberline {2.2.4}Arquitetura de Software}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.5}Métricas}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.6}Princípios}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.7}Unified Modeling Language - UML}{20}{}%
+\contentsline {section}{\numberline {3}Projecto – Parte 1}{21}{}%
+\contentsline {section}{\numberline {4}Projecto – Parte 2}{23}{}%
+\contentsline {section}{\numberline {5}Projecto – Parte 3}{24}{}%
+\contentsline {section}{\numberline {6}Projecto – Parte 4}{25}{}%
+\contentsline {section}{\numberline {7}Revisão do projecto realizado}{26}{}%
+\contentsline {section}{\numberline {8}Conclusão}{27}{}%
+\contentsline {section}{Refer\^encias}{28}{}%
